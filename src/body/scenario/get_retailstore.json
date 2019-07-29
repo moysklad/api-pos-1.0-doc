@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/admin/retailstore",
+    "mediaType": "application/json",
+    "size": 1,
+    "limit": 1000,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailstore/5d4d2ca2-7b1d-11e6-8a84-bae500000060",
+        "mediaType": "application/json",
+        "type": "retailstore",
+        "id": "5d4d2ca2-7b1d-11e6-8a84-bae500000060",
+        "idType": "native"
+      },
+      "id": "5d4d2ca2-7b1d-11e6-8a84-bae500000060",
+      "version": 2,
+      "updated": "2016-09-21 19:27:45",
+      "name": "Точка продаж",
+      "externalCode": "W0M-XxXYjPZJjA1cT3RTL2",
+      "controlShippingStock": false,
+      "controlCashierChoice": false,
+      "discountEnable": true,
+      "discountMaxPercent": 100,
+      "priceType": "Цена продажи",
+      "authTokenAttached": true,
+      "cashiers": {
+        "rows": [
+          {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/employee/a4f36276-7b5a-11e6-8a84-bae500000004",
+              "mediaType": "application/json",
+              "type": "employee",
+              "id": "a4f36276-7b5a-11e6-8a84-bae500000004",
+              "idType": "native"
+            },
+            "uid": "cashier@myorg",
+            "firstName": "Иван",
+            "middleName": "Иванович",
+            "lastName": "Иванов"
+          }
+        ]
+      },
+      "organization": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/organization/5d0f5e3e-7b1d-11e6-8a84-bae500000051",
+          "mediaType": "application/json",
+          "type": "organization",
+          "id": "5d0f5e3e-7b1d-11e6-8a84-bae500000051",
+          "idType": "native"
+        },
+        "id": "5d0f5e3e-7b1d-11e6-8a84-bae500000051",
+        "version": 5,
+        "updated": "2016-09-21 14:30:43",
+        "name": "myorg",
+        "description": "Моя организация",
+        "code": "1234",
+        "externalCode": "PW55m0xUiG1pAlGJv73Sd2",
+        "companyType": "legal",
+        "legalTitle": "ООО Иванов",
+        "legalAddress": "г Москва, ул Гашека, д 12 к 1",
+        "actualAddress": "г Москва, ул Вавилова д 19 3/4",
+        "inn": "7714045520",
+        "kpp": "775001001",
+        "ogrn": "1027700042413",
+        "okpo": "121351253251",
+        "email": "myorg@orgmy.su",
+        "phone": "346243637247",
+        "fax": "32472377432524",
+        "isEgaisEnable": true,
+        "fsrarId": "the id for fr",
+        "payerVat": true,
+        "utmUrl": "url.coms"
+      },
+      "store": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/store/5d1fa036-7b1d-11e6-8a84-bae500000053",
+          "mediaType": "application/json",
+          "type": "counterparty",
+          "id": "5d1fa036-7b1d-11e6-8a84-bae500000053",
+          "idType": "native"
+        },
+        "pathName": "",
+        "address": "г Москва ул Милашенкова д 2"
+      },
+      "acquire": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/1c5dcf6f-7b32-11e6-8a84-bae500000000",
+          "mediaType": "application/json",
+          "type": "counterparty",
+          "id": "1c5dcf6f-7b32-11e6-8a84-bae500000000",
+          "idType": "native"
+        }
+      },
+      "egaisEnabled": false,
+      "frNumber": "",
+      "returnFromClosedShiftEnabled": false,
+      "alwaysPrintCheck": false,
+      "ofdEnabled":false,
+      "allowCustomPrice":false
+    }
+  ]
+}

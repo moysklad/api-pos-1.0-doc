@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/assortment",
+    "mediaType": "application/json",
+    "size": 7,
+    "limit": 1000,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/446901e7-7c12-11e6-8a84-bae500000068",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "446901e7-7c12-11e6-8a84-bae500000068",
+        "idType": "native"
+      },
+      "id": "446901e7-7c12-11e6-8a84-bae500000068",
+      "name": "Товар1",
+      "code": "00002",
+      "barcodes": [
+        "2000000000022"
+      ],
+      "salePrices": [
+        {
+          "value": 0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "uom": "шт",
+      "egaisIsAlcoholic": true,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0,
+      "egaisAlcoholPercent": 0,
+      "soldByWeight": false,
+      "stock": -1,
+      "reserve": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "81fdf852-7c21-11e6-8a84-bae500000068",
+        "idType": "native"
+      },
+      "id": "81fdf852-7c21-11e6-8a84-bae500000068",
+      "name": "Пиво",
+      "code": "00003",
+      "barcodes": [
+        "2000000000039"
+      ],
+      "salePrices": [
+        {
+          "value": 1000,
+          "priceType": "Цена продажи"
+        },
+        {
+          "value": 2000,
+          "priceType": "Цена праздничная"
+        }
+      ],
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+          "idType": "native"
+        },
+        "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+        "name": "Овощи",
+        "namepath": "Овощи",
+        "path": "/dbe2cf7f-7b5c-11e6-8a84-bae50000000e/"
+      },
+      "article": "Ovosh1",
+      "uom": "шт",
+      "egaisIsAlcoholic": true,
+      "egaisHasExciseMark": false,
+      "egaisProductCode": 1,
+      "egaisVolume": 2,
+      "egaisAlcoholPercent": 0.3,
+      "soldByWeight": false,
+      "stock": -208,
+      "reserve": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/86e8625c-7b1d-11e6-8a84-bae500000106",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "86e8625c-7b1d-11e6-8a84-bae500000106",
+        "idType": "native"
+      },
+      "id": "86e8625c-7b1d-11e6-8a84-bae500000106",
+      "name": "Товар",
+      "code": "00001",
+      "barcodes": [
+        "2000000000015"
+      ],
+      "salePrices": [
+        {
+          "value": 0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "uom": "шт",
+      "egaisIsAlcoholic": true,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0,
+      "egaisAlcoholPercent": 0,
+      "soldByWeight": false,
+      "stock": -23,
+      "reserve": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/service/a22fb175-7fcf-11e6-8a84-bae500000005",
+        "mediaType": "application/json",
+        "type": "service",
+        "id": "a22fb175-7fcf-11e6-8a84-bae500000005",
+        "idType": "native"
+      },
+      "id": "a22fb175-7fcf-11e6-8a84-bae500000005",
+      "name": "Услуга",
+      "code": "00004",
+      "barcodes": [
+        "2000000000046"
+      ],
+      "salePrices": [
+        {
+          "value": 0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "uom": "шт"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/b2334e83-7fcf-11e6-8a84-bae50000000c",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "b2334e83-7fcf-11e6-8a84-bae50000000c",
+        "idType": "native"
+      },
+      "id": "b2334e83-7fcf-11e6-8a84-bae50000000c",
+      "name": "Товар2",
+      "code": "00005",
+      "barcodes": [
+        "2000000000053"
+      ],
+      "salePrices": [
+        {
+          "value": 0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "uom": "шт",
+      "egaisIsAlcoholic": false,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0,
+      "egaisAlcoholPercent": 0,
+      "soldByWeight": false,
+      "stock": 0,
+      "reserve": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/variant/b23bf8f1-7fcf-11e6-8a84-bae500000010",
+        "mediaType": "application/json",
+        "type": "variant",
+        "id": "b23bf8f1-7fcf-11e6-8a84-bae500000010",
+        "idType": "native"
+      },
+      "id": "b23bf8f1-7fcf-11e6-8a84-bae500000010",
+      "name": "(Mod)",
+      "code": "00002",
+      "barcodes": [
+        "2000000000060"
+      ],
+      "salePrices": [
+        {
+          "value": 0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "characteristics": {
+        "Style": "Hip"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/b2334e83-7fcf-11e6-8a84-bae50000000c",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "b2334e83-7fcf-11e6-8a84-bae50000000c",
+          "idType": "native"
+        },
+        "id": "b2334e83-7fcf-11e6-8a84-bae50000000c",
+        "name": "Товар2",
+        "code": "00005",
+        "uom": "шт",
+        "egaisIsAlcoholic": false,
+        "egaisHasExciseMark": false,
+        "egaisVolume": 0,
+        "egaisAlcoholPercent": 0,
+        "soldByWeight": false,
+        "stock": 0,
+        "reserve": 0
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/variant/b23ed636-7fcf-11e6-8a84-bae500000014",
+        "mediaType": "application/json",
+        "type": "variant",
+        "id": "b23ed636-7fcf-11e6-8a84-bae500000014",
+        "idType": "native"
+      },
+      "id": "b23ed636-7fcf-11e6-8a84-bae500000014",
+      "name": "(Hop)",
+      "code": "00003",
+      "barcodes": [
+        "2000000000077"
+      ],
+      "salePrices": [
+        {
+          "value": 0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "characteristics": {
+        "Style": "Hop"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/b2334e83-7fcf-11e6-8a84-bae50000000c",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "b2334e83-7fcf-11e6-8a84-bae50000000c",
+          "idType": "native"
+        },
+        "id": "b2334e83-7fcf-11e6-8a84-bae50000000c",
+        "name": "Товар2",
+        "code": "00005",
+        "uom": "шт",
+        "egaisIsAlcoholic": false,
+        "egaisHasExciseMark": false,
+        "egaisVolume": 0,
+        "egaisAlcoholPercent": 0,
+        "soldByWeight": false,
+        "stock": 0,
+        "reserve": 0
+      }
+    },
+    {
+      "meta": {
+        "href": "http://localhost/api/posap/1.0/entity/product/216e7496-6112-11e9-ac13-000c000000bc",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "216e7496-6112-11e9-ac13-000c000000bc",
+        "idType": "native"
+      },
+      "id": "216e7496-6112-11e9-ac13-000c000000bc",
+      "name": "Товар",
+      "code": "00001",
+      "barcodes": [
+        "2000000000015"
+      ],
+      "salePrices": [
+        {
+          "value": 0.0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "favorite": false,
+      "uom": "шт",
+      "egaisIsAlcoholic": false,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0.0,
+      "egaisAlcoholPercent": 0.0,
+      "soldByWeight": false,
+      "tobacco": false,
+      "trackingType": "NOT_TRACKED",
+      "stock": 0.0,
+      "reserve": 0.0,
+      "isSerialTrackable": false
+    },
+    {
+      "meta": {
+        "href": "http://localhost/api/posap/1.0/entity/product/ace86997-6113-11e9-ac13-000c000000c9",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "ace86997-6113-11e9-ac13-000c000000c9",
+        "idType": "native"
+      },
+      "id": "ace86997-6113-11e9-ac13-000c000000c9",
+      "name": "shoes",
+      "code": "00002",
+      "barcodes": [
+        "2000000000022"
+      ],
+      "salePrices": [
+        {
+          "value": 0.0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "favorite": false,
+      "uom": "шт",
+      "egaisIsAlcoholic": false,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0.0,
+      "egaisAlcoholPercent": 0.0,
+      "soldByWeight": false,
+      "tobacco": false,
+      "trackingType": "SHOES",
+      "stock": 0.0,
+      "reserve": 0.0,
+      "isSerialTrackable": false
+    },
+    {
+      "meta": {
+        "href": "http://localhost/api/posap/1.0/entity/product/c1d3dacb-6113-11e9-ac13-000c000000d2",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "c1d3dacb-6113-11e9-ac13-000c000000d2",
+        "idType": "native"
+      },
+      "id": "c1d3dacb-6113-11e9-ac13-000c000000d2",
+      "name": "tobacco",
+      "code": "00003",
+      "barcodes": [
+        "2000000000039"
+      ],
+      "salePrices": [
+        {
+          "value": 0.0,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "favorite": false,
+      "uom": "шт",
+      "egaisIsAlcoholic": false,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0.0,
+      "egaisAlcoholPercent": 0.0,
+      "soldByWeight": false,
+      "tobacco": true,
+      "trackingType": "TOBACCO",
+      "stock": 0.0,
+      "reserve": 0.0,
+      "isSerialTrackable": false
+    }
+  ]
+}

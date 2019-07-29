@@ -1,0 +1,82 @@
+{
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/1c5dcf6f-7b32-11e6-8a84-bae500000000",
+      "mediaType": "application/json",
+      "type": "counterparty",
+      "id": "1c5dcf6f-7b32-11e6-8a84-bae500000000",
+      "idType": "native"
+    }
+  },
+  "transactionType": "EARNING",
+  "positions": [
+    {
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/7db30ee8-07c5-11e7-90a5-ba9c0000008b",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "7db30ee8-07c5-11e7-90a5-ba9c0000008b",
+          "idType": "native"
+        }
+      },
+      "sn": [{
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn/bb89b2b1-07c7-11e7-90a5-ba9c000000a5",
+          "mediaType": "application/json",
+          "type": "sn",
+          "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a5",
+          "idType": "native"
+        }
+      }],
+      "quantity": 10,
+      "price": 200,
+      "pack": {
+          "id": "5ae9e6b5-7b95-11e9-ac12-000b000000ac",
+          "name": "ящ",
+          "quantity": 10,
+          "barcode": "2000000000016"
+        }
+    },
+    {
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/service/bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+          "mediaType": "application/json",
+          "type": "service",
+          "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+          "idType": "native"
+        }
+      },
+      "quantity": 2.33,
+      "price": 300
+    },
+    {
+      "assortment": {
+
+        "meta": {
+          "href": "http://localhost/api/posap/1.0/entity/product/ace86997-6113-11e9-ac13-000c000000c9",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "ace86997-6113-11e9-ac13-000c000000c9",
+          "idType": "native"
+        }
+      },
+      "quantity": 1,
+      "price": 200
+    },
+    {
+      "assortment": {
+        "meta": {
+          "href": "http://localhost/api/posap/1.0/entity/product/c1d3dacb-6113-11e9-ac13-000c000000d2",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "c1d3dacb-6113-11e9-ac13-000c000000d2",
+          "idType": "native"
+        }
+      },
+      "quantity": 2,
+      "price": 150
+    }
+  ]
+}

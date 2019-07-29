@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/customerorder",
+    "mediaType": "application/json",
+    "size": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/customerorder/0f175046-dbca-11e6-5bed-427b00000079",
+        "mediaType": "application/json",
+        "type": "customerorder",
+        "id": "0f175046-dbca-11e6-5bed-427b00000079",
+        "idType": "native"
+      },
+      "id": "0f175046-dbca-11e6-5bed-427b00000079",
+      "name": "00001",
+      "description": "2222222222222",
+      "moment": "2017-01-16 11:59:00",
+      "vatIncluded": true,
+      "vatEnabled": true,
+      "deliveryPlannedMoment": "2017-02-01 17:12:00",
+      "state": {
+        "name": "Новый",
+        "color": 15106326,
+        "type": "Regular"
+      },
+      "positions": [
+        {
+          "assortment": {
+            "meta": {
+              "href": "http://online.moysklad.ru/api/posap/1.0/entity/product/d90cda3b-1f6c-11e7-8a7f-40d000000003",
+              "mediaType": "application/json",
+              "type": "product",
+              "id": "d90cda3b-1f6c-11e7-8a7f-40d000000003",
+              "idType": "native"
+            },
+            "name": "good1",
+            "code": "00034",
+            "uom": "шт",
+            "barcodes": [
+              "2000000000367"
+            ],
+            "salePrices": [
+              {
+                "value": 6000,
+                "priceType": "Цена продажи"
+              },
+              {
+                "value": 4000,
+                "priceType": "Цена распродажи"
+              }
+            ],
+            "soldByWeight": false,
+            "isSerialTrackable": false,
+            "paymentItemType": "GOOD",
+            "isDiscountProhibited": false
+          },
+          "quantity": 1,
+          "price": 0,
+          "vat": 0,
+          "discount": 0,
+          "reserve": 0
+        },
+        {
+          "assortment": {
+            "meta": {
+              "href": "http://online.moysklad.ru/api/posap/1.0/entity/variant/cca27551-5cc3-11e7-6a80-332a000000a4",
+              "mediaType": "application/json",
+              "type": "variant",
+              "id": "cca27551-5cc3-11e7-6a80-332a000000a4",
+              "idType": "native"
+            },
+            "name": "good1 (variant)",
+            "code": "00035",
+            "uom": "шт",
+            "barcodes": [
+              "2000000000369"
+            ],
+            "salePrices": [
+              {
+                "value": 6000,
+                "priceType": "Цена продажи"
+              },
+              {
+                "value": 5000,
+                "priceType": "Цена распродажи"
+              }
+            ],
+            "soldByWeight": false,
+            "isSerialTrackable": false,
+            "paymentItemType": "ANOTHER_PAYMENT_ITEM",
+            "isDiscountProhibited": false
+          },
+          "quantity": 10,
+          "price": 0,
+          "vat": 0,
+          "discount": 0,
+          "reserve": 0,
+          "pack": {
+              "id": "5ae9e6b5-7b95-11e9-ac12-000b000000ac",
+              "name": "ящ",
+              "quantity": 10,
+              "barcode": "2000000000016"
+          }
+        }
+      ],
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/90fdbe2f-d973-11e6-5bed-427b00000056",
+          "mediaType": "application/json",
+          "type": "counterparty",
+          "id": "90fdbe2f-d973-11e6-5bed-427b00000056",
+          "idType": "native"
+        },
+        "name": "ООО \"Покупатель\""
+      },
+      "prepayments": [
+        {
+          "meta": {
+            "href": "http://online.moysklad.ru/api/posap/1.0/entity/prepayment/6e13d2e1-b0ba-4f70-bd39-0b7dfd6c2e31",
+            "mediaType": "application/json",
+            "type": "prepayment",
+            "id": "6e13d2e1-b0ba-4f70-bd39-0b7dfd6c2e31",
+            "idType": "native"
+          },
+          "name": "00010"
+        },
+        {
+          "meta": {
+            "href": "http://online.moysklad.ru/api/posap/1.0/entity/prepayment/6e13d2e1-b0ba-4f70-bd39-0b7dfd6c2e30",
+            "mediaType": "application/json",
+            "type": "prepayment",
+            "id": "6e13d2e1-b0ba-4f70-bd39-0b7dfd6c2e30",
+            "idType": "native"
+          },
+          "name": "00011"
+        }
+      ],
+      "paidInCash": 123,
+      "paidNoCash": 222,
+      "shippedSum": 111
+    }
+  ]
+}

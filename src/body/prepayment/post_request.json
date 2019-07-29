@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/prepayment/syncid/388bd178-800c-11e6-8a84-bae5000000a2"
+  },
+  "name": "000219991",
+  "description": "предоплата по заказу из интернет-магазин",
+  "moment": "2016-09-06 21:41:46",
+  "sum": 250000,
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/688bd078-800c-11e6-8a84-bae5000000a2"
+    }
+  },
+  "positions": [
+    {
+      "assortment": {
+        "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
+        "mediaType": "application/json"
+        }
+      },
+      "quantity": 2,
+      "price": 500,
+      "discount": 10,
+      "vat": 10
+    },
+    {
+      "quantity": 3,
+      "price": 400,
+      "discount": 10,
+      "vat": 10,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/syncid/f085d67e-6eae-11e6-8a84-bc520403352c"
+        }
+      }
+    }
+  ],
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/syncid/288bd078-800c-11e6-8a84-bae5000000a2"
+    }
+  },
+  "customerOrder": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/customerorder/syncid/288bd078-800c-11e6-8a84-bae5000000a2"
+    }
+  },
+  "cashSum": 125000,
+  "noCashSum": 125000,
+  "cheque":{
+    "fiscal": true,
+    "online":true,
+    "printed":true,
+    "phone":"89992223311",
+    "email":"1@m.com",
+    "number":"4165132132",
+    "sum":123.6
+  },
+  "environment":{
+    "os": "Linux",
+    "device": "Some device name",
+    "software":{
+      "name":"Касса МойСклад",
+      "vendor": "МойСклад",
+      "version":"2.2"
+    },
+    "chequePrinter": {
+      "vendor": "АТОЛ",
+      "name": "30Ф",
+      "serial": "15636313",
+      "fiscalDataVersion": "1.0",
+      "driver": {
+        "name": "АТОЛ (бета)",
+        "version": "9.1"
+      },
+      "fiscalMemory": {
+        "fiscalDataVersion": "1.0"
+      },
+      "firmwareVersion": "669"
+    },
+    "paymentTerminal": {
+      "acquiringType": "payme"
+    }
+  },
+  "cardTransaction": {
+    "pan": "547127******8519",
+    "transactionId": "5abce3f3c0ffdc014f1040de",
+    "authCode": "889872",
+    "rrnCode": "000010000467",
+    "amount": 8600,
+    "acquiringType": "Inpas",
+    "approvalNumber": "055747",
+    "description": "платеж картой n-Банка"
+  }
+}

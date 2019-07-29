@@ -1,0 +1,116 @@
+{
+  "positions": [
+    {
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/service/bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+          "mediaType": "application/json",
+          "type": "service",
+          "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+          "idType": "native"
+        },
+        "image": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/download/64aab630-07c7-11e7-90a5-ba9c0000002c",
+          "miniature": "https://online.moysklad.ru/api/posap/1.0/download/64aab630-07c7-11e7-90a5-ba9c0000002c?miniature=true",
+          "tiny": "https://online.moysklad.ru/static/75651645-07c5-11e7-90a5-ba9c00000006/TinyImage/64aaa5a2-07c7-11e7-90a5-ba9c0000002b.png"
+        },
+        "name": "Имя товара1",
+        "code": "код",
+        "barcodes": ["9031101"],
+        "vat": 10,
+        "uom": "ед. измерения",
+        "article": "артикул",
+        "soldByWeight": false,
+        "tobacco": false,
+        "serialtrackable": false,
+        "trackingType": "NOT_TRACKED"
+      },
+      "sn": [
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn/bb89b2b1-07c7-11e7-90a5-ba9c000000a5",
+            "mediaType": "application/json",
+            "type": "sn",
+            "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a5",
+            "idType": "native"
+          },
+          "name": "Сер. номер#1"
+        }
+      ],
+      "quantity": 10.0,
+      "price": 100,
+      "discountedPrice": 80,
+      "pack": {
+        "id": "5ae9e6b5-7b95-11e9-ac12-000b000000ac",
+        "name": "ящ",
+        "quantity": 10,
+        "barcode": "2000000000016"
+      }
+    },
+    {
+      "assortment": {
+        "meta": {
+          "href": "http://localhost/api/posap/1.0/entity/product/ace86997-6113-11e9-ac13-000c000000c9",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "ace86997-6113-11e9-ac13-000c000000c9",
+          "idType": "native"
+        },
+        "name": "shoes",
+        "code": "00002",
+        "barcodes": [
+          "2000000000022"
+        ],
+        "uom": "шт",
+        "soldByWeight": false,
+        "tobacco": false,
+        "trackingType": "SHOES",
+        "isSerialTrackable": false
+      },
+      "quantity": 1.0,
+      "price": 200,
+      "discountedPrice": 200
+    },
+    {
+      "assortment": {
+        "meta": {
+          "href": "http://localhost/api/posap/1.0/entity/product/c1d3dacb-6113-11e9-ac13-000c000000d2",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "c1d3dacb-6113-11e9-ac13-000c000000d2",
+          "idType": "native"
+        },
+        "name": "tobacco",
+        "code": "00003",
+        "barcodes": [
+          "2000000000039"
+        ],
+        "uom": "шт",
+        "soldByWeight": false,
+        "tobacco": true,
+        "trackingType": "TOBACCO",
+        "isSerialTrackable": false
+      },
+      "quantity": 2.0,
+      "price": 150,
+      "discountedPrice": 150
+    }
+  ],
+  "bonusProgram": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/bonusprogram/00000000-07c7-11e7-90a5-ba9c0000002c",
+      "mediaType": "application/json",
+      "type": "bonusprogram",
+      "id": "00000000-07c7-11e7-90a5-ba9c0000002c",
+      "idType": "native"
+    }
+  },
+  "receiptExtraInfo": "Текст\nот\nбонусов",
+  "agentBonusBalance": 100,
+  "bonusValueToEarn": 8,
+  "bonusValueToSpend": 20,
+  "chequeSumWithoutDiscount": 600,
+  "valueToPay": 580,
+  "paidByDiscountWithoutBonus": 0,
+  "paidWithBonusPoints": 20
+}

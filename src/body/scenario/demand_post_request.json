@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/retaildemand/syncid/388bd178-800c-11e6-8a84-bae5000000a2"
+  },
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/syncid/388bd178-800c-11e6-8a84-bae5022000a2"
+    }
+  },
+  "name": "000219991",
+  "moment": "2016-09-06 21:41:46",
+  "description": "размен",
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/688bd078-800c-11e6-8a84-bae5000000a2"
+    }
+  },
+  "positions": [
+    {
+      "assortment": {
+        "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
+        "mediaType": "application/json"
+        }
+      },
+      "quantity": 2,
+      "price": 500,
+      "discount": 10,
+      "discountSum": 100,
+      "vat": 10,
+      "vatSum": 100,
+      "sum": 1000,
+      "pdf": [
+        "abc",
+        "def"
+      ]
+    }
+  ],
+  "cashSum": 800,
+  "noCashSum": 100,
+  "vatEnabled": true,
+  "bottleUrl" : "https://check.egais.ru?id=a9e56cb9-21d6-4404-9f24-668020fadf6a&amp;dt=0910141104&amp;cn=Magazin2014",
+  "bottleSign": "418E6A105B60250CEB20F9F9A556FA4A9575B0C07EC536DE89CA868C884E296E56BA7EC7762C9BEC285CB4D8CD90EEE9F9FC16F92CCF324829E70862F0DFEC1B418E6A105B60250CEB20F9F9A556FA4A9575B0C07EC536DE89CA868C884E296E56BA7EC7762C9BEC285CB4D8CD90EEE9F9FC16F92CCF324829E70862F0DFEC1B",
+  "chequeEmail": "test@test.org",
+  "chequePhone": "123456",
+  "electronicCheque": true,
+  "paperCheque": true
+}

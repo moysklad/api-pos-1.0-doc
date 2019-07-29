@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/discount",
+    "mediaType": "application/json",
+    "size": 6,
+    "limit": 1000,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/specialpricediscount/33edffd5-7ff9-11e6-8a84-bae500000057",
+        "mediaType": "application/json",
+        "type": "specialpricediscount",
+        "id": "33edffd5-7ff9-11e6-8a84-bae500000057",
+        "idType": "native"
+      },
+      "id": "33edffd5-7ff9-11e6-8a84-bae500000057",
+      "name": "Скидка1",
+      "allProducts": false,
+      "productFolders": [
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+            "mediaType": "application/json",
+            "type": "productfolder",
+            "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+            "idType": "native"
+          },
+          "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+          "name": "Папка 1",
+          "namepath": "",
+          "path": "/"
+        }
+      ],
+      "specialPrice": {
+        "priceType": "Цена продажи"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/specialpricediscount/38a43ee7-7ffd-11e6-8a84-bae50000005f",
+        "mediaType": "application/json",
+        "type": "specialpricediscount",
+        "id": "38a43ee7-7ffd-11e6-8a84-bae50000005f",
+        "idType": "native"
+      },
+      "id": "38a43ee7-7ffd-11e6-8a84-bae50000005f",
+      "name": "Скидка2",
+      "allProducts": false,
+      "productFolders": [
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/276a6f50-7ffd-11e6-8a84-bae50000005c",
+            "mediaType": "application/json",
+            "type": "productfolder",
+            "id": "276a6f50-7ffd-11e6-8a84-bae50000005c",
+            "idType": "native"
+          },
+          "productFolder": {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+              "mediaType": "application/json",
+              "type": "productfolder",
+              "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+              "idType": "native"
+            }
+          },
+          "id": "276a6f50-7ffd-11e6-8a84-bae50000005c",
+          "name": "Папка 2",
+          "namepath": "Папка 1",
+          "path": "/dbe2cf7f-7b5c-11e6-8a84-bae50000000e/"
+        }
+      ],
+      "specialPrice": {
+        "priceType": "Цена продажи"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/941e8ce7-7b1d-11e6-8a84-bae500000111",
+        "mediaType": "application/json",
+        "type": "accumulationdiscount",
+        "id": "941e8ce7-7b1d-11e6-8a84-bae500000111",
+        "idType": "native"
+      },
+      "id": "941e8ce7-7b1d-11e6-8a84-bae500000111",
+      "name": "Скидка 3",
+      "allProducts": false,
+      "levels": [
+        {
+          "amount": 10000,
+          "discount": 1
+        },
+        {
+          "amount": 20000,
+          "discount": 2
+        },
+        {
+          "amount": 30000,
+          "discount": 3
+        }
+      ]
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/98af408c-7fdc-11e6-8a84-bae50000003c",
+        "mediaType": "application/json",
+        "type": "accumulationdiscount",
+        "id": "98af408c-7fdc-11e6-8a84-bae50000003c",
+        "idType": "native"
+      },
+      "id": "98af408c-7fdc-11e6-8a84-bae50000003c",
+      "name": "накопительная Скидка",
+      "allProducts": false,
+      "levels": [
+        {
+          "amount": 200000,
+          "discount": 1
+        },
+        {
+          "amount": 1200000,
+          "discount": 2
+        }
+      ]
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/fbd3a1b7-7fdd-11e6-8a84-bae500000047",
+        "mediaType": "application/json",
+        "type": "accumulationdiscount",
+        "id": "fbd3a1b7-7fdd-11e6-8a84-bae500000047",
+        "idType": "native"
+      },
+      "id": "fbd3a1b7-7fdd-11e6-8a84-bae500000047",
+      "name": "Скидка 4",
+      "allProducts": false,
+      "levels": [
+        {
+          "amount": 20000,
+          "discount": 0
+        }
+      ]
+    }
+  ]
+}

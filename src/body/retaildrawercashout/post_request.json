@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/retaildrawercashout/syncid/388bd178-800c-11e6-8a84-bae5000000a2"
+  },
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/syncid/288bd078-800c-11e6-8a84-bae5000000a2"
+    }
+  },
+  "name": "0020012",
+  "moment": "2016-04-16 19:41:19",
+  "sum": 73500,
+  "description": "Выплата денег из денежного ящика"
+}

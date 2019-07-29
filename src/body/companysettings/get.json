@@ -1,0 +1,18 @@
+{
+  "currency": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/currency/5d204097-7b1d-11e6-8a84-bae500000058",
+      "mediaType": "application/json",
+      "type": "currency",
+      "id": "5d204097-7b1d-11e6-8a84-bae500000058",
+      "idType": "native"
+    },
+    "name": "руб",
+    "rate": 1,
+    "code": "643"
+  },
+  "discountStrategy": "bySum",
+  "isWeightBarcodes": false,
+  "weightBarcodePrefix": "00",
+  "operationNumbering": "GLOBAL"
+}

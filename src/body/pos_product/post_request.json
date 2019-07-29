@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/syncid/388bd178-800c-11e6-8a84-bae500000099"
+  },
+  "name": "товар",
+  "barcodes": [
+  	"6756173856073261598132",
+  	"41272104617235",
+  	"123"
+  	],
+  	"price":100.5,
+  "vat":18,
+  "description":"Товар, который мы создаём через posap",
+  "article":"арт-10001",
+  "productFolder":{
+    "meta": {
+      "href":"https://online.moysklad.ru/api/posap/1.0/entity/productfolder/c380a8b1-745e-11e6-007d-ff4e0000005e"
+    }
+  },
+  "image":{
+    "filename":"cat.jpg",
+    "content": "/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/7gAmQWRvYmUAZMAAAAABAwAVBAMGCg0AACbxAABz6wAAtw4AARiwn/AHNXab18Tzkr39p3xlS3p7c5/9k="
+  }
+}

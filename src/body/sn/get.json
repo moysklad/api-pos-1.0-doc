@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn",
+    "mediaType": "application/json",
+    "size": 4,
+    "limit": 100,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn/dcb887fa-2ff8-11e7-8a84-bae500000005",
+        "mediaType": "application/json",
+        "type": "sn",
+        "id": "dcb887fa-2ff8-11e7-8a84-bae500000005",
+        "idType": "native"
+      },
+      "name": "12322678909292929292",
+      "code": "123aa2c34eg566",
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/b7fb5459-2a83-11e7-9464-e4de00000026",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "b7fb5459-2a83-11e7-9464-e4de00000026",
+          "idType": "native"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn/dcb887fa-2ff8-11e7-8a84-bae500000005",
+        "mediaType": "application/json",
+        "type": "sn",
+        "id": "dcb887fa-2ff8-11e7-8a84-bae500000005",
+        "idType": "native"
+      },
+      "name": "12345678909292929292",
+      "code": "12345678909292929292",
+      "description": "Описание серийного номера",
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/bbc50755-2a83-11e7-9464-e4de0000002e",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "bbc50755-2a83-11e7-9464-e4de0000002e",
+          "idType": "native"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn/dcb887fa-2ff8-11e7-8a84-bae500000005",
+        "mediaType": "application/json",
+        "type": "sn",
+        "id": "dcb887fa-2ff8-11e7-8a84-bae500000005",
+        "idType": "native"
+      },
+      "name": "123456665556329292926",
+      "code": "123456789092777629292",
+      "description": "Серийный номер продукта",
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/bbc82552-2a83-11e7-9464-e4de00000032",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "bbc82552-2a83-11e7-9464-e4de00000032",
+          "idType": "native"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/sn/eb21663a-2b2b-11e7-9464-e4de0000002e",
+        "mediaType": "application/json",
+        "type": "sn",
+        "id": "eb21663a-2b2b-11e7-9464-e4de0000002e",
+        "idType": "native"
+      },
+      "name": "123",
+      "code": "123",
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/syncid/73a83977-89c7-11e8-253d-a06100000004",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "73a83977-89c7-11e8-253d-a06100000004",
+          "idType": "sync"
+        }
+      }
+    }
+  ]
+}

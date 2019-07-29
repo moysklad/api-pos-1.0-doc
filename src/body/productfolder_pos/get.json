@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder",
+    "mediaType": "application/json",
+    "size": 3,
+    "limit": 1000,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/276a6f50-7ffd-11e6-8a84-bae50000005c",
+        "mediaType": "application/json",
+        "type": "productfolder",
+        "id": "276a6f50-7ffd-11e6-8a84-bae50000005c",
+        "idType": "native"
+      },
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+          "idType": "native"
+        },
+        "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+        "name": "Овощи",
+        "namepath": "",
+        "path": "/"
+      },
+      "id": "276a6f50-7ffd-11e6-8a84-bae50000005c",
+      "name": "Цитрусовые",
+      "namepath": "Овощи",
+      "path": "/dbe2cf7f-7b5c-11e6-8a84-bae50000000e/"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/83528b98-7ffd-11e6-8a84-bae500000062",
+        "mediaType": "application/json",
+        "type": "productfolder",
+        "id": "83528b98-7ffd-11e6-8a84-bae500000062",
+        "idType": "native"
+      },
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/276a6f50-7ffd-11e6-8a84-bae50000005c",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "276a6f50-7ffd-11e6-8a84-bae50000005c",
+          "idType": "native"
+        },
+        "productFolder": {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+            "mediaType": "application/json",
+            "type": "productfolder",
+            "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+            "idType": "native"
+          }
+        },
+        "id": "276a6f50-7ffd-11e6-8a84-bae50000005c",
+        "name": "Цитрусовые",
+        "namepath": "Овощи",
+        "path": "/dbe2cf7f-7b5c-11e6-8a84-bae50000000e/"
+      },
+      "id": "83528b98-7ffd-11e6-8a84-bae500000062",
+      "name": "Оранжевые",
+      "namepath": "Овощи/Цитрусовые",
+      "path": "/dbe2cf7f-7b5c-11e6-8a84-bae50000000e/276a6f50-7ffd-11e6-8a84-bae50000005c/"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+        "mediaType": "application/json",
+        "type": "productfolder",
+        "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+        "idType": "native"
+      },
+      "id": "dbe2cf7f-7b5c-11e6-8a84-bae50000000e",
+      "name": "Овощи",
+      "namepath": "",
+      "path": "/"
+    }
+  ]
+}

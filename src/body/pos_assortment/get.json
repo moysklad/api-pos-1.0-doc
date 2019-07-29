@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/assortment",
+    "mediaType": "application/json",
+    "size": 5,
+    "limit": 4,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward",
+    "nextHref": "http://online.moysklad.ru/api/posap/1.0/entity/assortment?limit=4&offsetId=ac6bab2d-07c8-11e7-8a84-bc5200000016&direction=forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/7db30ee8-07c5-11e7-90a5-ba9c0000008b",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "7db30ee8-07c5-11e7-90a5-ba9c0000008b",
+        "idType": "native"
+      },
+      "id": "7db30ee8-07c5-11e7-90a5-ba9c0000008b",
+      "name": "товар алкогольный",
+      "code": "00004",
+      "barcodes": [
+        "2000000000015"
+      ],
+      "salePrices": [
+        {
+          "value": 6000,
+          "priceType": "Цена продажи"
+        },
+        {
+          "value": 0,
+          "priceType": "нулевая цена"
+        }
+      ],
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "idType": "native"
+        },
+        "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+        "name": "папка",
+        "namepath": "папка",
+        "path": "/200a6488-07c7-11e7-90a5-ba9c0000009a/"
+      },
+      "article": "артикул",
+      "uom": "шт",
+      "vat": 10,
+      "image": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/download/64aab630-07c7-11e7-90a5-ba9c0000002c",
+        "miniature": "https://online.moysklad.ru/api/posap/1.0/download/64aab630-07c7-11e7-90a5-ba9c0000002c?miniature=true",
+        "tiny": "https://online.moysklad.ru/static/75651645-07c5-11e7-90a5-ba9c00000006/TinyImage/64aaa5a2-07c7-11e7-90a5-ba9c0000002b.png"
+      },
+      "egaisIsAlcoholic": true,
+      "egaisHasExciseMark": false,
+      "egaisProductCode": 444,
+      "egaisVolume": 0.5,
+      "egaisAlcoholPercent": 4,
+      "soldByWeight": false,
+      "stock": 0,
+      "reserve": 0,
+      "isSerialtrackable": false,
+      "tobacco": false,
+      "paymentItemType": "EXCISABLE_GOOD",
+      "isDiscountProhibited": false,
+      "packs": [
+        {
+          "id": "5ae9e6b5-7b95-11e9-ac12-000b000000ac",
+          "name": "ящ",
+          "quantity": 10,
+          "barcode": "2000000000016"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/service/bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+        "mediaType": "application/json",
+        "type": "service",
+        "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+        "idType": "native"
+      },
+      "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+      "name": "Услуга",
+      "code": "00006",
+      "barcodes": [
+        "2000000000060"
+      ],
+      "salePrices": [
+        {
+          "value": 1500,
+          "priceType": "Цена продажи"
+        },
+        {
+          "value": 0,
+          "priceType": "нулевая цена"
+        }
+      ],
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "idType": "native"
+        },
+        "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+        "name": "папка",
+        "namepath": "папка",
+        "path": "/200a6488-07c7-11e7-90a5-ba9c0000009a/"
+      },
+      "uom": "шт",
+      "vat": 10,
+      "taxSystem": "GENERAL_TAX_SYSTEM",
+      "paymentItemType": "SERVICE",
+      "isDiscountProhibited": true
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/cd39d288-07c6-11e7-90a5-ba9c00000019",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "cd39d288-07c6-11e7-90a5-ba9c00000019",
+        "idType": "native"
+      },
+      "id": "cd39d288-07c6-11e7-90a5-ba9c00000019",
+      "name": "Товар",
+      "code": "00005",
+      "barcodes": [
+        "2000000000022",
+        "2000000000053"
+      ],
+      "salePrices": [
+        {
+          "value": 1300,
+          "priceType": "Цена продажи"
+        },
+        {
+          "value": 0,
+          "priceType": "нулевая цена"
+        }
+      ],
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "idType": "native"
+        },
+        "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+        "name": "папка",
+        "namepath": "папка",
+        "path": "/200a6488-07c7-11e7-90a5-ba9c0000009a/"
+      },
+      "article": "артикул",
+      "uom": "шт",
+      "vat": 10,
+      "taxSystem": "SIMPLIFIED_TAX_SYSTEM_INCOME",
+      "image": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028",
+        "miniature": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028?miniature=true",
+        "tiny": "https://online.moysklad.ru/static/75651645-07c5-11e7-90a5-ba9c00000006/TinyImage/59af0104-07c7-11e7-90a5-ba9c00000027.png"
+      },
+      "egaisIsAlcoholic": false,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0,
+      "egaisAlcoholPercent": 0,
+      "soldByWeight": true,
+      "stock": 0,
+      "reserve": 0,
+      "isSerialtrackable": false,
+      "tobacco": false,
+      "paymentItemType": "GOOD",
+      "isDiscountProhibited": true
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/variant/cd3ed8ed-07c6-11e7-90a5-ba9c00000020",
+        "mediaType": "application/json",
+        "type": "variant",
+        "id": "cd3ed8ed-07c6-11e7-90a5-ba9c00000020",
+        "idType": "native"
+      },
+      "id": "cd3ed8ed-07c6-11e7-90a5-ba9c00000020",
+      "name": "Товар (версия1)",
+      "code": "00002",
+      "barcodes": [
+        "2000000000039"
+      ],
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "idType": "native"
+        },
+        "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+        "name": "папка",
+        "namepath": "папка",
+        "path": "/200a6488-07c7-11e7-90a5-ba9c0000009a/"
+      },
+      "characteristics": {
+        "модификация": "версия1"
+      },
+      "stock": 0,
+      "reserve": 0,
+      "salePrices": [
+        {
+          "value": 1300,
+          "priceType": "Цена продажи"
+        },
+        {
+          "value": 0,
+          "priceType": "нулевая цена"
+        }
+      ],
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/cd39d288-07c6-11e7-90a5-ba9c00000019",
+          "mediaType": "application/json",
+          "type": "product",
+          "id": "cd39d288-07c6-11e7-90a5-ba9c00000019",
+          "idType": "native"
+        },
+        "id": "cd39d288-07c6-11e7-90a5-ba9c00000019",
+        "name": "Товар",
+        "code": "00005",
+        "salePrices": [
+          {
+            "value": 1300,
+            "priceType": "Цена продажи"
+          },
+          {
+            "value": 0,
+            "priceType": "нулевая цена"
+          }
+        ],
+        "article": "артикул",
+        "uom": "шт",
+        "vat": 10,
+        "image": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028",
+          "miniature": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028?miniature=true",
+          "tiny": "https://online.moysklad.ru/static/75651645-07c5-11e7-90a5-ba9c00000006/TinyImage/59af0104-07c7-11e7-90a5-ba9c00000027.png"
+        },
+        "egaisIsAlcoholic": false,
+        "egaisHasExciseMark": false,
+        "egaisVolume": 0,
+        "egaisAlcoholPercent": 0,
+        "soldByWeight": true,
+        "stock": 0,
+        "reserve": 0,
+        "paymentItemType": "ANOTHER_PAYMENT_ITEM",
+        "isDiscountProhibited": true
+      },
+      "isSerialtrackable": false
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/posap/1.0/entity/bundle/e90685f8-07c8-11e7-8a84-bc520000002d",
+        "mediaType": "application/json",
+        "type": "bundle",
+        "id": "e90685f8-07c8-11e7-8a84-bc520000002d",
+        "idType": "native"
+      },
+      "id": "e90685f8-07c8-11e7-8a84-bc520000002d",
+      "name": "Комплект",
+      "code": "00006",
+      "barcodes": [
+        "2000000000107"
+      ],
+      "salePrices": [
+        {
+          "value": 1500,
+          "priceType": "Цена продажи"
+        },
+        {
+          "value": 1900,
+          "priceType": "нулевая цена"
+        }
+      ],
+      "productFolder": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/productfolder/200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "mediaType": "application/json",
+          "type": "productfolder",
+          "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+          "idType": "native"
+        },
+        "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+        "name": "папка",
+        "namepath": "папка",
+        "path": "/200a6488-07c7-11e7-90a5-ba9c0000009a/"
+      },
+      "article": "артикул",
+      "uom": "шт",
+      "vat": 18,
+      "taxSystem": "PRESUMPTIVE_TAX_SYSTEM",
+      "paymentItemType": "COMPOUND_PAYMENT_ITEM",
+      "isDiscountProhibited": false,
+      "image": {
+        "href": "http://online.moysklad.ru/api/posap/1.0/download/d3c41c47-07c8-11e7-8a84-bc520000001f",
+        "miniature": "http://online.moysklad.ru/api/posap/1.0/download/d3c41c47-07c8-11e7-8a84-bc520000001f?miniature=true",
+        "tiny": "http://online.moysklad.ru/app/download/d3c3e54c-07c8-11e7-8a84-bc520000001e.png"
+      },
+      "components": [
+        {
+          "meta" : {
+            "href": "http://online.moysklad.ru/api/posap/1.0/entity/product/cd39d288-07c6-11e7-90a5-ba9c00000019",
+            "mediaType": "application/json",
+            "type": "product",
+            "id": "cd39d288-07c6-11e7-90a5-ba9c00000019",
+            "idType": "native"
+          },
+          "quantity" : 5
+        },
+        {
+          "meta" : {
+            "href": "http://online.moysklad.ru/api/posap/1.0/entity/variant/cd3ed8ed-07c6-11e7-90a5-ba9c00000020",
+            "mediaType": "application/json",
+            "type": "variant",
+            "id": "ac6bab2d-07c8-11e7-8a84-bc5200000016",
+            "idType": "native"
+          },
+          "quantity" : 10
+        },
+        {
+          "meta" : {
+            "href": "http://online.moysklad.ru/api/posap/1.0/entity/service/bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+            "mediaType": "application/json",
+            "type": "service",
+            "id": "bb89b2b1-07c7-11e7-90a5-ba9c000000a4",
+            "idType": "native"
+          },
+          "quantity" : 15
+        }
+      ]
+    }
+  ]
+}

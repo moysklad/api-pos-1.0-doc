@@ -1,0 +1,42 @@
+{
+  "environment": {
+    "device": "Some device name",
+    "os": "Linux",
+    "software": {
+      "name": "Касса МойСклад",
+      "vendor": "МойСклад",
+      "version": "2.2"
+    },
+    "chequePrinter": {
+      "vendor": "АТОЛ",
+      "name": "30Ф",
+      "serial": "15636313",
+      "fiscalDataVersion": "1.0",
+      "driver": {
+        "name": "АТОЛ (бета)",
+        "version": "9.1"
+      },
+      "fiscalMemory": {
+        "fiscalDataVersion": "1.1"
+      },
+      "firmwareVersion": "669"
+    },
+    "paymentTerminal": {
+      "acquiringType": "payme"
+    }
+  },
+  "state": {
+    "sync": {
+      "message": "Ошибка синхронизации, необходимо войти повторно",
+      "lastAttemptMoment":"2016-09-06 21:41:00"
+    },
+    "fiscalMemory": {
+      "error":{
+        "code": "1003",
+        "message": "Критическая ошибка"
+      },
+      "notSendDocCount": 25,
+      "notSendFirstDocMoment": "2016-09-06 21:41:00"
+    }
+  }
+}

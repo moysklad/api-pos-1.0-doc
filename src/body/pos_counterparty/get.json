@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty",
+    "mediaType": "application/json",
+    "size": 6,
+    "limit": 1000,
+    "offsetId": "00000000-0000-0000-0000-000000000000",
+    "direction": "forward"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/1c5dcf6f-7b32-11e6-8a84-bae500000000",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "1c5dcf6f-7b32-11e6-8a84-bae500000000",
+        "idType": "native"
+      },
+      "id": "1c5dcf6f-7b32-11e6-8a84-bae500000000",
+      "version": 0,
+      "updated": "2016-09-15 13:49:43",
+      "name": "OOOCompany",
+      "externalCode": "qKQuM-6ijqMFB5TemvZxi1",
+      "companyType": "legal",
+      "tags": [],
+      "salesAmount": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/5d1fe143-7b1d-11e6-8a84-bae500000054",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "5d1fe143-7b1d-11e6-8a84-bae500000054",
+        "idType": "native"
+      },
+      "id": "5d1fe143-7b1d-11e6-8a84-bae500000054",
+      "version": 0,
+      "updated": "2016-09-15 11:21:13",
+      "name": "ООО \"Поставщик\"",
+      "externalCode": "8DLiwCbIhvJz3TSNC2h1G3",
+      "companyType": "legal",
+      "legalTitle": "Общество с ограниченной ответственностью \"Поставщик\"",
+      "legalAddress": "г.Москва, ул.Строителей, д.12",
+      "inn": "7736570901",
+      "kpp": "773601001",
+      "tags": [],
+      "salesAmount": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/5d201705-7b1d-11e6-8a84-bae500000056",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "5d201705-7b1d-11e6-8a84-bae500000056",
+        "idType": "native"
+      },
+      "id": "5d201705-7b1d-11e6-8a84-bae500000056",
+      "version": 0,
+      "updated": "2016-09-15 11:21:13",
+      "name": "ООО \"Покупатель\"",
+      "externalCode": "grYJWYhkheEmr3aNP53-72",
+      "companyType": "legal",
+      "legalTitle": "Общество с ограниченной ответственностью \"Покупатель\"",
+      "legalAddress": "г.Москва, ул.Строителей, д.11",
+      "inn": "7736570902",
+      "kpp": "773601002",
+      "tags": [],
+      "salesAmount": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/5d444290-7b1d-11e6-8a84-bae50000005e",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "5d444290-7b1d-11e6-8a84-bae50000005e",
+        "idType": "native"
+      },
+      "id": "5d444290-7b1d-11e6-8a84-bae50000005e",
+      "version": 10,
+      "updated": "2016-09-15 11:21:13",
+      "name": "Розничный покупатель",
+      "externalCode": "xprOCvL2gPZjzlYwqzsvw3",
+      "companyType": "legal",
+      "tags": [],
+      "salesAmount": 18720
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/688bd078-800c-11e6-8a84-bae5000000a2",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "688bd078-800c-11e6-8a84-bae5000000a2",
+        "idType": "native"
+      },
+      "id": "688bd078-800c-11e6-8a84-bae5000000a2",
+      "version": 4,
+      "updated": "2016-09-21 18:05:01",
+      "name": "АО компания-банк",
+      "description": "Ключевой партнёр",
+      "code": "almost-alfa-code",
+      "externalCode": "6AWY7U4biGxP-HFAmEN0l3",
+      "companyType": "entrepreneur",
+      "legalTitle": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"компания-банк\"",
+      "legalAddress": "г Можайск, ул Недокаланчевская, д 26.99",
+      "actualAddress": "г Можайск, ул Перекаланчевская, д 27.01",
+      "inn": "7728178971",
+      "okpo": "3519251242513",
+      "ogrnip": "12412412",
+      "certificateNumber": "в21421412",
+      "certificateDate": "2016-09-01 00:00:00",
+      "email": "aoalmost@bank.ru",
+      "phone": "+7 666 555 444 333",
+      "fax": "123321",
+      "tags": [],
+      "discounts": [
+        {
+          "discount": {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/941e8ce7-7b1d-11e6-8a84-bae500000111",
+              "mediaType": "application/json",
+              "type": "accumulationdiscount",
+              "id": "941e8ce7-7b1d-11e6-8a84-bae500000111",
+              "idType": "native"
+            }
+          },
+          "salesAmountCorrection": 30000
+        },
+        {
+          "discount": {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/98af408c-7fdc-11e6-8a84-bae50000003c",
+              "mediaType": "application/json",
+              "type": "accumulationdiscount",
+              "id": "98af408c-7fdc-11e6-8a84-bae50000003c",
+              "idType": "native"
+            }
+          },
+          "salesAmountCorrection": 1000
+        },
+        {
+          "discount": {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/fbd3a1b7-7fdd-11e6-8a84-bae500000047",
+              "mediaType": "application/json",
+              "type": "accumulationdiscount",
+              "id": "fbd3a1b7-7fdd-11e6-8a84-bae500000047",
+              "idType": "native"
+            }
+          },
+          "salesAmountCorrection": 1000
+        }
+      ],
+      "discountCardNumber": "6",
+      "salesAmount": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/801ee966-7b1d-11e6-8a84-bae5000000fd",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "801ee966-7b1d-11e6-8a84-bae5000000fd",
+        "idType": "native"
+      },
+      "id": "801ee966-7b1d-11e6-8a84-bae5000000fd",
+      "version": 3,
+      "updated": "2016-09-21 12:21:54",
+      "name": "Контрагент со скидкой",
+      "externalCode": "uI93KJojjZk7F-WU9eJfr1",
+      "companyType": "legal",
+      "tags": [],
+      "discounts": [
+        {
+          "discount": {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/941e8ce7-7b1d-11e6-8a84-bae500000111",
+              "mediaType": "application/json",
+              "type": "accumulationdiscount",
+              "id": "941e8ce7-7b1d-11e6-8a84-bae500000111",
+              "idType": "native"
+            }
+          },
+          "salesAmountCorrection": 0
+        },
+        {
+          "discount": {
+            "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/accumulationdiscount/98af408c-7fdc-11e6-8a84-bae50000003c",
+              "mediaType": "application/json",
+              "type": "accumulationdiscount",
+              "id": "98af408c-7fdc-11e6-8a84-bae50000003c",
+              "idType": "native"
+            }
+          },
+          "salesAmountCorrection": 10000
+        }
+      ],
+      "salesAmount": 150000
+    }
+  ]
+}
