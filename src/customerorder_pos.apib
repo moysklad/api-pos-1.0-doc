@@ -104,3 +104,40 @@
 Успешный запрос. Результат - JSON представление списка Заказов покупателей.
   + Body
         <!-- include(body/pos_customerorder/get.json) -->
+
+
+## Заказы покупателей [/entity/customerorder]
+
+### Создать заказ покупателя [POST]
+Запрос на создание нового заказа покупателя.
+
+Обязательные поля для создания заказа:
++ **meta** - Метаданные
++ **agent** - Ссылка на контрагента.
+
+В случае, если не будет передано поле **name** - оно будет автоматически присвоено на сервере.
+После создания, заказу будет выставлена Организация, указанная в настройках точки продаж.
+
+<h2> Атрибуты запроса </h2>
++ **taxSystem** - Код системы налогообложения.
+
+| Система налогообложения    | Значение поля taxSystem                |
+| ---------------------------|:---------------------------------------|
+| ОСН                        | GENERAL_TAX_SYSTEM                     |
+| УСН. Доход                 | SIMPLIFIED_TAX_SYSTEM_INCOME           |
+| УСН. Доход-Расход          | SIMPLIFIED_TAX_SYSTEM_INCOME_OUTCOME   |
+| ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
+| ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
+| Патент                     | PATENT_BASED                           |
+
++ Request Пример 1 (application/json)
+Пример создания нового заказа покупателя.
+  + Headers
+    Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b
+    Lognex-Pos-Auth-Cashier-Uid:employee@company
+  + Body
+        <!-- include(body/pos_customerorder/post_request.json) -->
+
++ Response 201
+  + Body
+        <!-- include(body/pos_customerorder/post_response.json) -->
