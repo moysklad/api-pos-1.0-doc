@@ -19,8 +19,8 @@
     {
       "assortment": {
         "meta": {
-        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
-        "mediaType": "application/json"
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
+          "mediaType": "application/json"
         }
       },
       "quantity": 2,
@@ -78,7 +78,11 @@
     "phone":"89992223311",
     "email":"1@m.com",
     "number":"4165132132",
-    "sum":123.6
+    "sum":123.6,
+    "fnNumber":"1223334444",
+    "fiscalDocSign":"111222333",
+    "fiscalDocNumber":"1234567",
+    "time":"2016-09-06 21:41:46"
   },
   "environment":{
     "os": "Linux",
@@ -115,6 +119,15 @@
     "acquiringType": "Inpas",
     "approvalNumber": "055747",
     "description": "платеж картой n-Банка"
+  },
+  "customerOrder": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/customerorder/7c1b81ab-5a9d-11e8-7a31-ca1400000027",
+      "mediaType":"application/json",
+      "type":"customerorder",
+      "id":"7c1b81ab-5a9d-11e8-7a31-ca1400000027",
+      "idType":"native"
+    }
   },
   "bonusProgram":{
     "meta":{
