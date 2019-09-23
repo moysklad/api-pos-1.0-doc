@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailoperation",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailsalesreturn/syncid/6f2a160d-5842-452c-9845-a8fd82b43a62",
+        "mediaType": "application/json",
+        "type": "retailsalesreturn",
+        "id": "6f2a160d-5842-452c-9845-a8fd82b43a62",
+        "idType": "sync"
+      },
+      "id": "9f80f80e-d49e-11e9-ac12-000b000001a4",
+      "name": "00001",
+      "moment": "2019-09-11 17:15:00",
+      "sum": 0,
+      "noCashSum": 0,
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/organization/1415fdba-d49b-11e9-ac12-000b00000068",
+          "mediaType": "application/json",
+          "type": "organization",
+          "id": "1415fdba-d49b-11e9-ac12-000b00000068",
+          "idType": "native"
+        },
+        "name": "123"
+      },
+      "retailShift": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/4676fe33-d49d-11e9-ac12-000b0000018f",
+          "mediaType": "application/json",
+          "type": "retailshift",
+          "id": "4676fe33-d49d-11e9-ac12-000b0000018f",
+          "idType": "native"
+        },
+        "name": "00001",
+        "openmoment": "2019-09-11 17:05:00"
+      },
+      "prepaymentCash": 0.0,
+      "prepaymentNoCash": 0.0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/retaildemand/syncid/21356f1a-1826-475b-bf7c-80d2ced0229f",
+        "mediaType": "application/json",
+        "type": "retaildemand",
+        "id": "21356f1a-1826-475b-bf7c-80d2ced0229f",
+        "idType": "sync"
+      },
+      "id": "4682ea35-d49d-11e9-ac12-000b00000191",
+      "name": "00001",
+      "moment": "2019-09-11 17:05:00",
+      "sum": 1000,
+      "noCashSum": 1000,
+      "retailShift": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/4676fe33-d49d-11e9-ac12-000b0000018f",
+          "mediaType": "application/json",
+          "type": "retailshift",
+          "id": "4676fe33-d49d-11e9-ac12-000b0000018f",
+          "idType": "native"
+        },
+        "name": "00001",
+        "openmoment": "2019-09-11 17:05:00"
+      },
+      "prepaymentCash": 0.0,
+      "prepaymentNoCash": 0.0
+    }
+  ]
+}
