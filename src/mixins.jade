@@ -43,6 +43,7 @@ mixin Nav()
         - var separatedPosDoc = false
         - var separatedPosStuff = false
         - var separatedPosGeneral = false
+        - var separatedPosChequeRpc = false
         each resourceGroup in self.api.resourceGroups || []
             if (separatedGeneral && !separatedEntities)
                 h4(align="center") Сущности
@@ -74,6 +75,9 @@ mixin Nav()
             if (!separatedPosGeneral && resourceGroup.name.indexOf('pos_general') > -1)
                 h4(align="center") Общие сведения
                 - separatedPosGeneral = true
+            if (!separatedPosChequeRpc && resourceGroup.name.indexOf('pos_cheque_rpc') > -1)
+                h4(align="center") Фискализация
+                - separatedPosChequeRpc = true
             .resource-group
                 .heading
                   .chevron
@@ -102,7 +106,10 @@ mixin Nav()
                                               if (resourceGroup.name.substring(0, 12) == "pos_general ")
                                                   a(href=resourceGroup.elementLink)!= resourceGroup.name.replace("pos_general ", "") || 'Resource Group'
                                               else
-                                                  a(href=resourceGroup.elementLink)!= resourceGroup.name || 'Resource Group'
+                                                  if (resourceGroup.name.substring(0, 15) == "pos_cheque_rpc ")
+                                                      a(href=resourceGroup.elementLink)!= resourceGroup.name.replace("pos_cheque_rpc ", "") || 'Resource Group'
+                                                  else
+                                                      a(href=resourceGroup.elementLink)!= resourceGroup.name || 'Resource Group'
                 .collapse-content
                   ul
                     each item in resourceGroup.navItems || []
@@ -259,7 +266,10 @@ mixin Content()
                                         if (resourceGroup.name.substring(0, 12) == "pos_general ")
                                             - groupName = resourceGroup.name.replace("pos_general ","")
                                         else
-                                            - groupName = resourceGroup.name
+                                            if (resourceGroup.name.substring(0, 15) == "pos_cheque_rpc ")
+                                                - groupName = resourceGroup.name.replace("pos_cheque_rpc ","")
+                                            else
+                                                - groupName = resourceGroup.name
             h2.group-heading
                 != groupName || 'Resource Group'
                 = " "
@@ -344,7 +354,10 @@ mixin ContentTriple()
                                             if (resourceGroup.name.substring(0, 12) == "pos_general ")
                                                 - groupName = resourceGroup.name.replace("pos_general ","")
                                             else
-                                                - groupName = resourceGroup.name
+                                                if (resourceGroup.name.substring(0, 15) == "pos_cheque_rpc ")
+                                                    - groupName = resourceGroup.name.replace("pos_cheque_rpc ","")
+                                                else
+                                                    - groupName = resourceGroup.name
                 h2.group-heading
                     != groupName || 'Resource Group'
                     = " "

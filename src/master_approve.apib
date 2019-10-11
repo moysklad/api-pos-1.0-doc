@@ -1,0 +1,69 @@
+# group pos_cheque_rpc Успешная фискализация
+### Авторизация (token)
+Для данного ресурса необходима авторизация по **token**. О том как получить данный token можно прочитать [тут](#pos_begin-привязка-точки,-получение-токена-получение-token).
+Варианты аутентификации с помощью token:
+  + С помощью заголовков (Header):
+     **Lognex-Pos-Auth-Token** со значением токена, а также Header'ом **Lognex-Pos-Auth-Cashier-Uid**, значением которого будет uid кассира, от имени которого выполняется запрос. При этом Header **Authorization** НЕ указывается.
+     * Пример:
+      - `Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b`
+      - `Lognex-Pos-Auth-Cashier-Uid:employee@company`
+  + C помощью обычной BASIC авторизации с парой логин-пароль, где:
+    - логин - uid кассира, от имени которого выполняется запрос
+    - пароль - token точки продаж
+      * Пример:
+        - `Username: admin@myorg`
+        - `Password: 9aa01067f9abc091ec6354fa73b5e05fda9e07fa`
+  + С помощью cookie:
+    - имя куки:  `Lognex-Pos-Auth`
+    - значение: `<uid кассира>:<token точки продаж>`
+      * Пример:
+        - `name = Lognex-Pos-Auth`
+        - `value = admin@myorg:4f2dc4d646bf0275de20b8f7f0b4f6fdda79cec0 `
+
+## Успешная фискализация [/cheque/rpc/master/approve]
+### Успешная фискализация [PUT]
+### Атрибуты Запроса
++ **meta** - Метаданные о операции `Необходимое`
++ **cheque** - информация о чеке
+  - **fiscal** -  отметка о том, был ли использован ФР
+  - **online** - признак электронного чека
+  - **printed** - признак бумажного чека
+  - **phone** - номер телефона, на который высылается электронный чек
+  - **email** - адрес электронной почты, на который высылается электронный чек
+  - **number** - номер чека
+  - **sum** - сумма чека
+  - **fnNumber** - номер ФН
+  - **fiscalDocSign** - Фискальный признак документа
+  - **fiscalDocNumber** - Номер фискального документа
+  - **time** - время фискализации
++ **chequePrinter** - данные о ККТ
+  - **vendor** - производитель
+  - **name** - наименование `Необходимое при передаче chequePrinter`
+  - **serial** - серийный номер
+  - **fiscalDataVersion** - формат фискальных данных
+  - **driver** - информация об используемом драйвере
+    - **name** - наименование драйвера
+    - **version** - версия драйвера
+  - **fiscalMemory** - информация о фискальном накопителе
+    - **fiscalDataVersion** - версия фискальной памяти
+  - **firmwareVersion** - Версия прошивки ККТ
++ **taxSystem** - Код системы налогообложения.
+
+| Система налогообложения    | Значение поля taxSystem                |
+| ---------------------------|:---------------------------------------|
+| ОСН                        | GENERAL_TAX_SYSTEM                     |
+| УСН. Доход                 | SIMPLIFIED_TAX_SYSTEM_INCOME           |
+| УСН. Доход-Расход          | SIMPLIFIED_TAX_SYSTEM_INCOME_OUTCOME   |
+| ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
+| ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
+| Патент                     | PATENT_BASED                           |
+
++ **retailShift** - Метаданные о смене, в которой была фискализирована операция `Необходимое`
+
++ Response 204 (application/json)
+Успешный запрос. Результат - JSON представление фискализированной операции.
+   + Headers
+      Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b
+      Lognex-Pos-Auth-Cashier-Uid:employee@company
+   + Body
+         <!-- include(body/fiscalization/master_approve.json) -->

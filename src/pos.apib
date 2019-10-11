@@ -10,7 +10,7 @@
 Для POS API установлены следующие ограничения:
   + Не более 100 запросов за 5 секундный период
   + Не более 5 параллельных запросов от одного пользователя
-  + Не более 20 параллельных запросов от аккаунта
+  + Не более 15 параллельных запросов от аккаунта
   + Не более 500 запросов с одного ip-адреса
   + Не более 10 Мб данных в одном запросе, отправляемом на сервер
 
@@ -157,6 +157,10 @@ ___
 <!-- include(prepaymentreturn.apib) -->
 <!-- include(customerorder_pos.apib) -->
 <!-- include(retailoperation.apib) -->
+<!-- include(minion_status.apib) -->
+<!-- include(master_poll.apib) -->
+<!-- include(master_approve.apib) -->
+<!-- include(master_reject.apib) -->
 <!-- include(retailstore_status_pos.apib) -->
 <!-- include(product_pos.apib) -->
 <!-- include(pos_counterparty_create.apib) -->

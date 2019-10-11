@@ -1,0 +1,56 @@
+# group pos_cheque_rpc Запрос статуса фискализации операции
+### Авторизация (token)
+Для данного ресурса необходима авторизация по **token**. О том как получить данный token можно прочитать [тут](#pos_begin-привязка-точки,-получение-токена-получение-token).
+Варианты аутентификации с помощью token:
+  + С помощью заголовков (Header):
+     **Lognex-Pos-Auth-Token** со значением токена, а также Header'ом **Lognex-Pos-Auth-Cashier-Uid**, значением которого будет uid кассира, от имени которого выполняется запрос. При этом Header **Authorization** НЕ указывается.
+     * Пример:
+      - `Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b`
+      - `Lognex-Pos-Auth-Cashier-Uid:employee@company`
+  + C помощью обычной BASIC авторизации с парой логин-пароль, где:
+    - логин - uid кассира, от имени которого выполняется запрос
+    - пароль - token точки продаж
+      * Пример:
+        - `Username: admin@myorg`
+        - `Password: 9aa01067f9abc091ec6354fa73b5e05fda9e07fa`
+  + С помощью cookie:
+    - имя куки:  `Lognex-Pos-Auth`
+    - значение: `<uid кассира>:<token точки продаж>`
+      * Пример:
+        - `name = Lognex-Pos-Auth`
+        - `value = admin@myorg:4f2dc4d646bf0275de20b8f7f0b4f6fdda79cec0 `
+
+## Статус фискализации операции [/cheque/rpc/minion/status/syncid/{syncid}]
+### Получить статус фискализации операции [GET]
+### Атрибуты ответа
++ **operation** - Метаданные о операции `Необходимое`
++ **fiscalStatus** - Статус фискализации `Необходимое`
+
+| Статус фискализации        | Значение поля fiscalStatus                         |
+| ---------------------------|:---------------------------------------------------|
+| Фискализирована            | OK                                                 |
+| Ожидает фискализации       | PENDING                                            |
+| В процессе фискализации    | IN_PROGRESS                                        |
+
++ **cheque** - информация о чеке
+  - **fiscal** -  отметка о том, был ли использован ФР
+  - **online** - признак электронного чека
+  - **printed** - признак бумажного чека
+  - **phone** - номер телефона, на который высылается электронный чек
+  - **email** - адрес электронной почты, на который высылается электронный чек
+  - **number** - номер чека
+  - **sum** - сумма чека
+  - **fnNumber** - номер ФН
+  - **fiscalDocSign** - Фискальный признак документа
+  - **fiscalDocNumber** - Номер фискального документа
+  - **time** - время фискализации
++ Parameters
+  + syncid: `7944ef04-f831-11e5-7a69-971500188b19` (required, string) - syncid операции
+
++ Response 200 (application/json)
+Успешный запрос. Результат - JSON представление статуса фискализации.
+  + Headers
+      Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b
+      Lognex-Pos-Auth-Cashier-Uid:employee@company
+  + Body
+        <!-- include(body/fiscalization/minion_status.json) -->

@@ -1,0 +1,34 @@
+# group pos_cheque_rpc Запрос операции на фискализацию
+### Авторизация (token)
+Для данного ресурса необходима авторизация по **token**. О том как получить данный token можно прочитать [тут](#pos_begin-привязка-точки,-получение-токена-получение-token).
+Варианты аутентификации с помощью token:
+  + С помощью заголовков (Header):
+     **Lognex-Pos-Auth-Token** со значением токена, а также Header'ом **Lognex-Pos-Auth-Cashier-Uid**, значением которого будет uid кассира, от имени которого выполняется запрос. При этом Header **Authorization** НЕ указывается.
+     * Пример:
+      - `Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b`
+      - `Lognex-Pos-Auth-Cashier-Uid:employee@company`
+  + C помощью обычной BASIC авторизации с парой логин-пароль, где:
+    - логин - uid кассира, от имени которого выполняется запрос
+    - пароль - token точки продаж
+      * Пример:
+        - `Username: admin@myorg`
+        - `Password: 9aa01067f9abc091ec6354fa73b5e05fda9e07fa`
+  + С помощью cookie:
+    - имя куки:  `Lognex-Pos-Auth`
+    - значение: `<uid кассира>:<token точки продаж>`
+      * Пример:
+        - `name = Lognex-Pos-Auth`
+        - `value = admin@myorg:4f2dc4d646bf0275de20b8f7f0b4f6fdda79cec0 `
+
+## Запрос операции на фискализацию [/cheque/rpc/master/poll/{orgId}]
+### Получить операцию на фискализацию [GET]
+### Атрибуты ответа
+Структура полностью соответствует обычному получению операции по id для эндпоинтов entity/type
++ Parameters
+  + orgId: `7944ef04-f831-11e5-7a69-971500188b19` (required, string) - id организации
+
++ Response 200 (application/json)
+Успешный запрос. Результат - JSON представление операции.
++ Headers
+      Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b
+      Lognex-Pos-Auth-Cashier-Uid:employee@company
