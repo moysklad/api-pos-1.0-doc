@@ -1,0 +1,45 @@
+{
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/retaildemand/syncid/a4a94924-ab7a-447e-b1ae-6b874242cbdd",
+      "mediaType": "application/json",
+      "type": "retaildemand",
+      "id": "a4a94924-ab7a-447e-b1ae-6b874242cbdd",
+      "idType": "sync"
+  },
+  "cheque": {
+    "fiscal": true,
+    "online": true,
+    "printed": true,
+    "phone": "89992223311",
+    "email": "1@m.com",
+    "number": "4165132132",
+    "sum": 123.6,
+    "fnNumber":"1223334444",
+    "fiscalDocSign":"111222333",
+    "fiscalDocNumber":"1234567",
+    "time":"2016-09-06 21:41:46"
+  },
+  "chequePrinter": {
+    "vendor": "АТОЛ",
+    "name": "30Ф",
+    "serial": "15636313",
+    "fiscalDataVersion": "1.0",
+    "driver": {
+      "name": "АТОЛ (бета)",
+      "version": "9.1"
+    },
+    "fiscalMemory": {
+      "fiscalDataVersion": "1.0"
+    },
+    "firmwareVersion": "669"
+  },
+  "taxSystem": "GENERAL_TAX_SYSTEM",
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/syncid/288bd078-800c-11e6-8a84-bae5000000a2",
+      "type": "retailshift",
+      "id": "288bd078-800c-11e6-8a84-bae5000000a2",
+      "idType": "sync"
+    }
+  }
+}
