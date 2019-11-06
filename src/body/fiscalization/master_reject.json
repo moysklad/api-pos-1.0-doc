@@ -1,0 +1,10 @@
+{
+  "meta": {
+      "href": "https://online.moysklad.ru/api/posap/1.0/entity/retaildemand/syncid/a4a94924-ab7a-447e-b1ae-6b874242cbdd",
+      "mediaType": "application/json",
+      "type": "retaildemand",
+      "id": "a4a94924-ab7a-447e-b1ae-6b874242cbdd",
+      "idType": "sync"
+  },
+  "fiscalErrMsg": "ФН переполнен"
+}

@@ -1,4 +1,4 @@
-# group pos_stuff Создание контрагентов
+# group pos_cheque_rpc Запрос операции на фискализацию
 ### Авторизация (token)
 Для данного ресурса необходима авторизация по **token**. О том как получить данный token можно прочитать [тут](#pos_begin-привязка-точки,-получение-токена-получение-token).
 Варианты аутентификации с помощью token:
@@ -20,26 +20,15 @@
         - `name = Lognex-Pos-Auth`
         - `value = admin@myorg:4f2dc4d646bf0275de20b8f7f0b4f6fdda79cec0 `
 
-## Создание контрагента [/entity/counterparty]
-### Создать Покупателя [POST]
-Запрос на создание нового контрагента.
-### Атрибуты запроса:
-+ **meta** -внешний уникальный идентификатор в формате метаданных (мета с syncId) `Необходимое`
-+ **name** - Имя Контрагента `Необходимое`
-+ **discountCardNumber** - Номер дисконтной карты
-+ **phone** - Номер городского телефона
-+ **email** - Адрес электронной почты
-+ **description** - Комментарий
+## Запрос операции на фискализацию [/cheque/rpc/master/poll/{orgId}]
+### Получить операцию на фискализацию [GET]
+### Атрибуты ответа
+Структура полностью соответствует обычному получению операции по id для эндпоинтов entity/type
++ Parameters
+  + orgId: `7944ef04-f831-11e5-7a69-971500188b19` (required, string) - id организации
 
-
-+ Request Пример (application/json)
-Пример body запроса для создания нового контрагента.
-  + Headers
++ Response 200 (application/json)
+Успешный запрос. Результат - JSON представление операции.
++ Headers
       Lognex-Pos-Auth-Token: 6ab89be1ae6ff147755625ee8da948e42612233b
       Lognex-Pos-Auth-Cashier-Uid:employee@company
-  + Body
-        <!-- include(body/pos_counterparty/post_request.json) -->
-
-+ Response 201
-  + Body
-        <!-- include(body/pos_counterparty/post_response.json) -->
