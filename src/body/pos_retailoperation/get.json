@@ -42,7 +42,8 @@
         "openmoment": "2019-09-11 17:05:00"
       },
       "prepaymentCash": 0.0,
-      "prepaymentNoCash": 0.0
+      "prepaymentNoCash": 0.0,
+      "returned": false
     },
     {
       "meta": {
@@ -69,7 +70,8 @@
         "openmoment": "2019-09-11 17:05:00"
       },
       "prepaymentCash": 0.0,
-      "prepaymentNoCash": 0.0
+      "prepaymentNoCash": 0.0,
+      "returned": true
     }
   ]
 }

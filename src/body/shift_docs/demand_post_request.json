@@ -19,8 +19,8 @@
     {
       "assortment": {
         "meta": {
-          "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
-          "mediaType": "application/json"
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/81fdf852-7c21-11e6-8a84-bae500000068",
+        "mediaType": "application/json"
         }
       },
       "quantity": 2,
