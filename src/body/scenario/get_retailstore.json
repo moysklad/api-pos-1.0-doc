@@ -40,7 +40,8 @@
             "uid": "cashier@myorg",
             "firstName": "Иван",
             "middleName": "Иванович",
-            "lastName": "Иванов"
+            "lastName": "Иванов",
+            "email": "ivanov@myorg.ru"
           }
         ]
       },
