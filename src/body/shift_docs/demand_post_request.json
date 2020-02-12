@@ -31,6 +31,14 @@
       "pdf": [
         "abc",
         "def"
+      ],
+      "marks": [
+        {
+          "cis": "12345678900987ABCDEFGabcdefgh"
+        },
+        {
+          "cis": "00000046185372KY4mjNZAB=U/FkO"
+        }
       ]
     },
     {
