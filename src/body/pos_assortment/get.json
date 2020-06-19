@@ -340,6 +340,37 @@
           "quantity" : 15
         }
       ]
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/product/cd39d288-07c6-11e7-90a5-ba9c00000020",
+        "mediaType": "application/json",
+        "type": "product",
+        "id": "cd39d288-07c6-11e7-90a5-ba9c00000020",
+        "idType": "native"
+      },
+      "id": "cd39d288-07c6-11e7-90a5-ba9c00000020",
+      "name": "Маска",
+      "code": "00077",
+      "salePrices": [
+        {
+          "value": 3500,
+          "priceType": "Цена продажи"
+        }
+      ],
+      "article": "артикул",
+      "uom": "шт",
+      "vat": 20,
+      "egaisIsAlcoholic": false,
+      "egaisHasExciseMark": false,
+      "egaisVolume": 0,
+      "egaisAlcoholPercent": 0,
+      "soldByWeight": false,
+      "stock": 0,
+      "reserve": 0,
+      "paymentItemType": "GOOD",
+      "isDiscountProhibited": false,
+      "personalProtectiveItemType" : "2400001323807"
     }
   ]
 }
