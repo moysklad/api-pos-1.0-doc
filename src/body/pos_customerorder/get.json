@@ -131,7 +131,7 @@
             "isSerialTrackable": false,
             "paymentItemType": "GOOD",
             "isDiscountProhibited": false,
-            "personalProtectiveItemType" : "2400001323807"
+            "ppeType" : "2400001323807"
           },
           "quantity": 1,
           "price": 0,
