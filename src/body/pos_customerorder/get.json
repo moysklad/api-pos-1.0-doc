@@ -105,6 +105,39 @@
               "quantity": 10,
               "barcode": "2000000000016"
           }
+        },
+        {
+          "assortment": {
+            "meta": {
+              "href": "http://online.moysklad.ru/api/posap/1.0/entity/product/d90cda3b-1f6c-11e7-8a7f-40d000000103",
+              "mediaType": "application/json",
+              "type": "product",
+              "id": "d90cda3b-1f6c-11e7-8a7f-40d000000103",
+              "idType": "native"
+            },
+            "name": "mask",
+            "code": "00134",
+            "uom": "шт",
+            "barcodes": [
+              "2000000023367"
+            ],
+            "salePrices": [
+              {
+                "value": 3500,
+                "priceType": "Цена продажи"
+              }
+            ],
+            "soldByWeight": false,
+            "isSerialTrackable": false,
+            "paymentItemType": "GOOD",
+            "isDiscountProhibited": false,
+            "ppeType" : "2400001323807"
+          },
+          "quantity": 1,
+          "price": 0,
+          "vat": 0,
+          "discount": 0,
+          "reserve": 0
         }
       ],
       "agent": {
