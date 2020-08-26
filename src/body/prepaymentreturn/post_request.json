@@ -50,6 +50,7 @@
   },
   "cashSum": 125000,
   "noCashSum": 125000,
+  "qrSum": 0,
   "cheque":{
     "fiscal": true,
     "online":true,

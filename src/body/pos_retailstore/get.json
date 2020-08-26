@@ -202,6 +202,16 @@
         "paymentTerminal": {
           "acquiringType": "payme"
         }
+      },
+      "qrPayEnabled": true,
+      "qrAcquire": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/1c5dcf6f-7b32-11e6-8a84-bae500000000",
+          "mediaType": "application/json",
+          "type": "counterparty",
+          "id": "1c5dcf6f-7b32-11e6-8a84-bae500000000",
+          "idType": "native"
+        }
       }
     }
   ]
