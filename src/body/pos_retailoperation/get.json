@@ -20,6 +20,7 @@
       "moment": "2019-09-11 17:15:00",
       "sum": 0,
       "noCashSum": 0,
+      "qrSum": 0,
       "agent": {
         "meta": {
           "href": "https://online.moysklad.ru/api/posap/1.0/entity/organization/1415fdba-d49b-11e9-ac12-000b00000068",
@@ -43,6 +44,7 @@
       },
       "prepaymentCash": 0.0,
       "prepaymentNoCash": 0.0,
+      "prepaymentQrSum": 0,
       "returned": false
     },
     {
@@ -58,6 +60,7 @@
       "moment": "2019-09-11 17:05:00",
       "sum": 1000,
       "noCashSum": 1000,
+      "qrSum": 0,
       "retailShift": {
         "meta": {
           "href": "https://online.moysklad.ru/api/posap/1.0/entity/retailshift/4676fe33-d49d-11e9-ac12-000b0000018f",
@@ -71,6 +74,7 @@
       },
       "prepaymentCash": 0.0,
       "prepaymentNoCash": 0.0,
+      "prepaymentQrSum": 0,
       "returned": true
     }
   ]
