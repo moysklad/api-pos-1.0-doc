@@ -37,6 +37,7 @@
   - **discount** - процент скидки
   - **vat** - процент НДС
 + **vatEnabled** - флаг, указывающий, что документ содержит НДС
++ **vatIncluded** - флаг, указывающий, включен ли НДС в цену (по умолчанию включен)
 + **vatIncluded** - Цена включает НДС
 + **vatSum** - Сумма НДС
 + **retailStore** - ссылка на точку продаж (meta с syncId).
@@ -100,6 +101,8 @@
 | ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
 | ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
 | Патент                     | PATENT_BASED                           |
+
+Если поле **vatEnabled**=**true**, а поле **vatIncluded**=**false**, то НДС не входит в цену и ее надо считать.
 
 + Request Пример 1 (application/json)
 Пример создания новой предоплаты.
