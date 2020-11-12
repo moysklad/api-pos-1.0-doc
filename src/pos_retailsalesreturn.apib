@@ -49,6 +49,7 @@
 + **noCashSum** - Оплачено картой
 + **qrSum** - оплачено по QR-коду
 + **vatEnabled** - флаг, указывающий, что документ содержит НДС
++ **vatIncluded** - флаг, указывающий, включен ли НДС в цену (по умолчанию включен)
 + **bottleUrl** - подпись ЕГАИС
 + **bottleSign** - URL чека ЕГАИС
 + **environment** - информация об окружении
@@ -106,6 +107,8 @@
 | ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
 | ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
 | Патент                     | PATENT_BASED                           |
+
+Если поле **vatEnabled**=**true**, а поле **vatIncluded**=**false**, то НДС не входит в цену и ее надо считать.
 
 + Request Пример 1 (application/json)
 Пример создания нового Розничного возврата.

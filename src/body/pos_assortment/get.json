@@ -49,6 +49,7 @@
       "article": "артикул",
       "uom": "шт",
       "vat": 10,
+      "vatDecimal": 10.00,
       "image": {
         "href": "https://online.moysklad.ru/api/posap/1.0/download/64aab630-07c7-11e7-90a5-ba9c0000002c",
         "miniature": "https://online.moysklad.ru/api/posap/1.0/download/64aab630-07c7-11e7-90a5-ba9c0000002c?miniature=true",
@@ -114,6 +115,7 @@
       },
       "uom": "шт",
       "vat": 10,
+      "vatDecimal": 10.00,
       "taxSystem": "GENERAL_TAX_SYSTEM",
       "paymentItemType": "SERVICE",
       "isDiscountProhibited": true
@@ -159,6 +161,7 @@
       "article": "артикул",
       "uom": "шт",
       "vat": 10,
+      "vatDecimal": 10.00,
       "taxSystem": "SIMPLIFIED_TAX_SYSTEM_INCOME",
       "image": {
         "href": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028",
@@ -243,6 +246,7 @@
         "article": "артикул",
         "uom": "шт",
         "vat": 10,
+        "vatDecimal": 10.00,
         "image": {
           "href": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028",
           "miniature": "https://online.moysklad.ru/api/posap/1.0/download/59af318d-07c7-11e7-90a5-ba9c00000028?miniature=true",
@@ -300,6 +304,7 @@
       "article": "артикул",
       "uom": "шт",
       "vat": 18,
+      "vatDecimal": 18.00,
       "taxSystem": "PRESUMPTIVE_TAX_SYSTEM",
       "paymentItemType": "COMPOUND_PAYMENT_ITEM",
       "isDiscountProhibited": false,
@@ -361,6 +366,7 @@
       "article": "артикул",
       "uom": "шт",
       "vat": 20,
+      "vatDecimal": 20.00,
       "egaisIsAlcoholic": false,
       "egaisHasExciseMark": false,
       "egaisVolume": 0,
