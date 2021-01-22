@@ -52,6 +52,7 @@
       "quantity": 1,
       "price": 0,
       "vat": 0,
+      "vatEnabled": false,
       "discount": 0,
       "reserve": 0
     },
@@ -88,6 +89,7 @@
       "quantity": 10,
       "price": 0,
       "vat": 0,
+      "vatEnabled": false,
       "discount": 0,
       "reserve": 0,
       "pack": {
@@ -127,6 +129,7 @@
       "quantity": 1,
       "price": 0,
       "vat": 0,
+      "vatEnabled": false,
       "discount": 0,
       "reserve": 0
     }

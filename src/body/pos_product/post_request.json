@@ -10,6 +10,7 @@
   	],
   	"price":100.5,
   "vat":18,
+  "useParentVat": false,
   "description":"Товар, который мы создаём через posap",
   "article":"арт-10001",
   "productFolder":{
