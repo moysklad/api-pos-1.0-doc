@@ -65,7 +65,8 @@
         "soldByWeight": false,
         "tobacco": false,
         "trackingType": "SHOES",
-        "isSerialTrackable": false
+        "isSerialTrackable": false,
+        "partialDisposal": false
       },
       "quantity": 1.0,
       "price": 200,
@@ -89,7 +90,8 @@
         "soldByWeight": false,
         "tobacco": true,
         "trackingType": "TOBACCO",
-        "isSerialTrackable": false
+        "isSerialTrackable": false,
+        "partialDisposal":false
       },
       "quantity": 2.0,
       "price": 150,
