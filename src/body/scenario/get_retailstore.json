@@ -101,7 +101,8 @@
       "returnFromClosedShiftEnabled": false,
       "alwaysPrintCheck": false,
       "ofdEnabled":false,
-      "allowCustomPrice":false
+      "allowCustomPrice":false,
+      "isExternalCustomers": false
     }
   ]
 }
