@@ -317,7 +317,8 @@
       "trackingType": "SHOES",
       "stock": 0.0,
       "reserve": 0.0,
-      "isSerialTrackable": false
+      "isSerialTrackable": false,
+      "partialDisposal": false
     },
     {
       "meta": {
@@ -350,7 +351,8 @@
       "trackingType": "TOBACCO",
       "stock": 0.0,
       "reserve": 0.0,
-      "isSerialTrackable": false
+      "isSerialTrackable": false,
+      "partialDisposal": false
     }
   ]
 }
