@@ -136,6 +136,7 @@
   "allowCreateProducts": true,
   "enableReturnsWithNoReason": true,
   "isOnlineDiscount": false,
+  "isExternalCustomers": false,
   "isPhonePriority": true,
   "reservePrepaidGoods": false,
   "receiptTemplate": {
