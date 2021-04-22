@@ -1,10 +1,10 @@
 {
   "meta": {
-    "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/syncid/276a6f50-7ffd-11e6-8a84-bae50000005"
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/syncid/276a6f50-7ffd-11e6-8a84-bae500000015"
   },
   "name": "Иван Иванович",
   "discountCardNumber": "101",
   "phone": "+7 925 8762323",
   "email": "email@example.com",
-  "descrption": "мой комментарий"
+  "description": "мой комментарий"
 }
