@@ -146,6 +146,7 @@
       "allowCreateProducts": true,
       "enableReturnsWithNoReason": true,
       "isOnlineDiscount": false,
+      "isExternalCustomers": false,
       "isPhonePriority": true,
       "reservePrepaidGoods": false,
       "receiptTemplate": {
@@ -212,7 +213,9 @@
           "id": "1c5dcf6f-7b32-11e6-8a84-bae500000000",
           "idType": "native"
         }
-      }
+      },
+      "enableNotMRCTobaccoSale": false,
+      "tobaccoMrcControlType": "SAME_PRICE"
     }
   ]
 }
