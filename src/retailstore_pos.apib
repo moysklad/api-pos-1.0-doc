@@ -126,10 +126,12 @@
     + **notSendFirstDocMoment** - Дата первого документа в очереди на отправку
   - **paymentTerminal** - информация о платежном терминале `Deprecated`
     + **acquiringType** - информация о типе эквайера (например: inpas/payme)
-+ **enableNotMRCTobaccoSale** - Разрешить продавать табачную продукцию не по МРЦ.
++ **enableNotMRCTobaccoSale** - Разрешить продавать табачную продукцию не по МРЦ. `Deprecated`
++ **tobaccoMrcControlType** - Контроль МРЦ для табачной продукции
 + **qrPayEnabled** - возможность оплаты по QR-коду на точке продаж
 + **qrAcquire** - банк эквайер операций по QR-коду
   - **meta** - Метаданные
++ **isExternalCustomers** - Возможность искать покупателей во внешней системе лояльности
 
 + Response 200 (application/json)
 Успешный запрос. Результат - JSON представление точки продаж.
