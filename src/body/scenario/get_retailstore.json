@@ -102,7 +102,8 @@
       "alwaysPrintCheck": false,
       "ofdEnabled":false,
       "allowCustomPrice":false,
-      "isExternalCustomers": false
+      "isExternalCustomers": false,
+      "sendMarksForCheck": false
     }
   ]
 }
