@@ -206,5 +206,6 @@
   },
   "enableNotMRCTobaccoSale": false,
   "tobaccoMrcControlType": "SAME_PRICE",
-  "markingSellingMode": "CORRECT_MARKS_ONLY"
+  "markingSellingMode": "CORRECT_MARKS_ONLY",
+  "sendMarksForCheck": false
 }
