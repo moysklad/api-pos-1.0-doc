@@ -118,6 +118,12 @@
     },
     "paymentTerminal": {
       "acquiringType": "payme"
+    },
+    "scales": {
+      "name": "massa-k",
+      "vendor": "massa-k",
+      "version": "1.0",
+      "firmware": "1.1"
     }
   },
   "cardTransaction": {
