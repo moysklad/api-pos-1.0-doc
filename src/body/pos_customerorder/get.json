@@ -54,6 +54,7 @@
               }
             ],
             "soldByWeight": false,
+            "onTap": false,
             "isSerialTrackable": false,
             "paymentItemType": "GOOD",
             "isDiscountProhibited": false
@@ -91,6 +92,7 @@
               }
             ],
             "soldByWeight": false,
+            "onTap": false,
             "isSerialTrackable": false,
             "paymentItemType": "ANOTHER_PAYMENT_ITEM",
             "isDiscountProhibited": false
@@ -130,6 +132,7 @@
               }
             ],
             "soldByWeight": false,
+            "onTap": false,
             "isSerialTrackable": false,
             "paymentItemType": "GOOD",
             "isDiscountProhibited": false,
