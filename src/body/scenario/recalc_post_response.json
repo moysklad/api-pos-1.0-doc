@@ -21,6 +21,7 @@
         "uom": "ед. измерения",
         "article": "артикул",
         "soldByWeight": false,
+        "onTap": false,
         "tobacco": false,
         "serialtrackable": false,
         "trackingType": "NOT_TRACKED"
@@ -63,6 +64,7 @@
         ],
         "uom": "шт",
         "soldByWeight": false,
+        "onTap": false,
         "tobacco": false,
         "trackingType": "SHOES",
         "isSerialTrackable": false,
@@ -88,6 +90,7 @@
         ],
         "uom": "шт",
         "soldByWeight": false,
+        "onTap": false,
         "tobacco": true,
         "trackingType": "TOBACCO",
         "isSerialTrackable": false,
