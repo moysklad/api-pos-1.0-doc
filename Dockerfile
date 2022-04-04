@@ -1,4 +1,4 @@
-FROM node:alpine
+# FROM node:alpine
 
 RUN npm config set user 0 && \
     npm config set unsafe-perm true && \
