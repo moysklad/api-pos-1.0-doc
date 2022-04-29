@@ -12,7 +12,7 @@
   "vat":18,
   "useParentVat": false,
   "description":"Товар, который мы создаём через posap",
-  "article":"арт-10001",
+  "article":"арт-10002",
   "productFolder":{
     "meta": {
       "href":"https://online.moysklad.ru/api/posap/1.0/entity/productfolder/c380a8b1-745e-11e6-007d-ff4e0000005e"
