@@ -6,5 +6,10 @@
   "discountCardNumber": "101",
   "phone": "+7 925 8762323",
   "email": "email@example.com",
-  "descrption": "мой комментарий"
+  "descrption": "мой комментарий",
+  "sex": "MALE",
+  "birthDate": "2023-07-14 00:00:00",
+  "legalFirstName": "Иван",
+  "legalMiddleName": "Иванович",
+  "legalLastName": "Иванов"
 }
