@@ -195,6 +195,28 @@
         }
       ],
       "salesAmount": 150000
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/posap/1.0/entity/counterparty/5d444290-7b1d-11e6-8a84-bae50000005d",
+        "mediaType": "application/json",
+        "type": "counterparty",
+        "id": "5d444290-7b1d-11e6-8a84-bae50000005d",
+        "idType": "native"
+      },
+      "id": "5d444290-7b1d-11e6-8a84-bae50000005d",
+      "version": 10,
+      "updated": "2023-07-14 11:21:13",
+      "name": "Покупатель женщина",
+      "externalCode": "xprOCvL2gP",
+      "companyType": "individual",
+      "tags": [],
+      "salesAmount": 0,
+      "sex": "FEMALE",
+      "birthDate": "2023-07-14 00:00:00",
+      "legalFirstName": "first",
+      "legalMiddleName": "middle",
+      "legalLastName": "last"
     }
   ]
 }
