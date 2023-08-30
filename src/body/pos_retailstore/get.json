@@ -28,6 +28,7 @@
       "discountMaxPercent": 100,
       "priceType": "Цена продажи",
       "authTokenAttached": true,
+      "allowDeleteReceiptPositions": true,
       "cashiers": {
         "rows": [
           {
