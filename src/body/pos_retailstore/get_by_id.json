@@ -18,6 +18,12 @@
   "discountMaxPercent": 100,
   "priceType": "Цена продажи",
   "authTokenAttached": true,
+  "requiredFio" : false,
+  "requiredPhone" : true,
+  "requiredEmail" : false,
+  "requiredBirthdate" : false,
+  "requiredSex" : false,
+  "requiredDiscountCardNumber" : false,
   "allowDeleteReceiptPositions": true,
   "cashiers": {
     "rows": [

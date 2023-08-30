@@ -5,6 +5,10 @@
 ### Добавлено
 - Добавлено поле `allowDeleteReceiptPositions` в сущность `Точка продаж`
 
+### 11-08-2023
+### Добавлено
+- Добавлены поля `requiredFio`, `requiredPhone`, `requiredEmail`, `requiredBirthdate`, `requiredSex`, `requiredDiscountCardNumber` в сущность `Точка продаж`
+
 ### 24-05-2023
 ### Добавлено
 - Ошибка `2029`
