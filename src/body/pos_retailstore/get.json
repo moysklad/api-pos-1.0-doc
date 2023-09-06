@@ -34,6 +34,7 @@
       "requiredBirthdate" : false,
       "requiredSex" : false,
       "requiredDiscountCardNumber" : false,
+      "allowDeleteReceiptPositions": true,
       "cashiers": {
         "rows": [
           {

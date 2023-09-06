@@ -1,6 +1,10 @@
 # POS API 1.0 Changelog
 Изменения в POS API 1.0 будут описаны в данном документе.
 
+### 31-08-2023
+### Добавлено
+- Добавлено поле `allowDeleteReceiptPositions` в сущность `Точка продаж`
+
 ### 11-08-2023
 ### Добавлено
 - Добавлены поля `requiredFio`, `requiredPhone`, `requiredEmail`, `requiredBirthdate`, `requiredSex`, `requiredDiscountCardNumber` в сущность `Точка продаж`
