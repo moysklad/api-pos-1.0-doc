@@ -35,6 +35,7 @@
       "requiredSex" : false,
       "requiredDiscountCardNumber" : false,
       "allowDeleteReceiptPositions": true,
+      "syncAgents": true,
       "cashiers": {
         "rows": [
           {
