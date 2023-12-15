@@ -225,7 +225,8 @@
       "enableNotMRCTobaccoSale": false,
       "tobaccoMrcControlType": "SAME_PRICE",
       "markingSellingMode": "CORRECT_MARKS_ONLY",
-      "sendMarksForCheck": false
+      "sendMarksForCheck": false,
+      "showBeerOnTap" : false
     }
   ]
 }
