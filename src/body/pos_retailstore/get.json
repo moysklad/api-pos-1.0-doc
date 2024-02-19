@@ -36,6 +36,7 @@
       "requiredDiscountCardNumber" : false,
       "allowDeleteReceiptPositions": true,
       "syncAgents": true,
+      "marksCheckMode": "CORRECT_MARKS_ONLY",
       "cashiers": {
         "rows": [
           {
