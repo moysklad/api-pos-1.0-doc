@@ -37,6 +37,7 @@
       "allowDeleteReceiptPositions": true,
       "syncAgents": true,
       "marksCheckMode": "CORRECT_MARKS_ONLY",
+      "sendMarksToChestnyZnakOnCloud": false,
       "cashiers": {
         "rows": [
           {
