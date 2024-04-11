@@ -28,6 +28,7 @@
   "syncAgents": true,
   "marksCheckMode": "CORRECT_MARKS_ONLY",
   "sendMarksToChestnyZnakOnCloud": false,
+  "testChestnyZnakMode": true,
   "cashiers": {
     "rows": [
       {
