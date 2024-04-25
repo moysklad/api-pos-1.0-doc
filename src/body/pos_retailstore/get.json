@@ -39,6 +39,7 @@
       "marksCheckMode": "CORRECT_MARKS_ONLY",
       "sendMarksToChestnyZnakOnCloud": false,
       "testChestnyZnakMode": true,
+      "allowNonFiscalTransactions": false,
       "cashiers": {
         "rows": [
           {
