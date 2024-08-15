@@ -94,7 +94,8 @@
         "isEgaisEnable": true,
         "fsrarId": "the id for fr",
         "payerVat": true,
-        "utmUrl": "url.coms"
+        "utmUrl": "url.coms",
+        "advancePaymentVat": 20.0
       },
       "store": {
         "meta": {
