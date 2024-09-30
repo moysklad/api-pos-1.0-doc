@@ -31,7 +31,7 @@
   "testChestnyZnakMode": true,
   "allowNonFiscalTransactions": false,
   "autoPrintFiscal": false,
-  "autoPrintNonFiscal": true,
+  "autoPrintNonFiscal": false,
   "cashiers": {
     "rows": [
       {
