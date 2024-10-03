@@ -40,6 +40,8 @@
       "sendMarksToChestnyZnakOnCloud": false,
       "testChestnyZnakMode": true,
       "allowNonFiscalTransactions": false,
+      "autoPrintFiscal": false,
+      "autoPrintNonFiscal": false,
       "cashiers": {
         "rows": [
           {
