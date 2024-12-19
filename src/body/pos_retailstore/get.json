@@ -232,7 +232,13 @@
       "enableNotMRCTobaccoSale": false,
       "tobaccoMrcControlType": "SAME_PRICE",
       "markingSellingMode": "CORRECT_MARKS_ONLY",
-      "sendMarksForCheck": false
+      "sendMarksForCheck": false,
+      "offlineSaleMode": "ALL",
+      "organization.kktToken":"trackingKktAccessToken",
+      "localModuleSettings": {
+        "auth": "base64",
+        "url": "127.0.0.1:5995"
+      }
     }
   ]
 }

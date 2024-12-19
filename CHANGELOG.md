@@ -1,6 +1,10 @@
 # POS API 1.0 Changelog
 Изменения в POS API 1.0 будут описаны в данном документе.
 
+### 19-12-2024
+### Добавлено
+- Добавлены поля `offlineSaleMode`,`organization.kktToken` и `localModuleSettings` в сущность `Точка продаж`
+
 ### 25-09-2024
 ### Добавлено
 - Добавлены поля `autoPrintFiscal` и `autoPrintNonFiscal` в сущность `Точка продаж`
