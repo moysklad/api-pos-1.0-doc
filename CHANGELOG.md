@@ -3,7 +3,7 @@
 
 ### 19-12-2024
 ### Добавлено
-- Добавлены поля `offlineSaleMode`,`organization.kktToken` и `localModuleSettings` в сущность `Точка продаж`
+- Добавлены поле `offlineSaleMode` в сущность `Точка продаж`
 
 ### 25-09-2024
 ### Добавлено

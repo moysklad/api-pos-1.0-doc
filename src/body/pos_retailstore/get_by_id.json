@@ -87,8 +87,7 @@
     "fsrarId": "the id for fr",
     "payerVat": true,
     "utmUrl": "url.coms",
-    "advancePaymentVat": 20.0,
-    "kktToken": "kktToken"
+    "advancePaymentVat": 20.0
   },
   "store": {
     "meta": {
@@ -224,9 +223,5 @@
   "tobaccoMrcControlType": "SAME_PRICE",
   "markingSellingMode": "CORRECT_MARKS_ONLY",
   "sendMarksForCheck": false,
-  "offlineSaleMode": "ALL",
-  "localModuleSettings": {
-    "auth": "base64",
-    "url": "127.0.0.1:5995"
-  }
+  "offlineSaleMode": "ALL"
 }
