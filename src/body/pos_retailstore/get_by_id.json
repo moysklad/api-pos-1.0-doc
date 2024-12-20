@@ -87,7 +87,8 @@
     "fsrarId": "the id for fr",
     "payerVat": true,
     "utmUrl": "url.coms",
-    "advancePaymentVat": 20.0
+    "advancePaymentVat": 20.0,
+    "kktToken": "kktToken"
   },
   "store": {
     "meta": {
@@ -224,7 +225,6 @@
   "markingSellingMode": "CORRECT_MARKS_ONLY",
   "sendMarksForCheck": false,
   "offlineSaleMode": "ALL",
-  "organization.kktToken":"trackingKktAccessToken",
   "localModuleSettings": {
     "auth": "base64",
     "url": "127.0.0.1:5995"
