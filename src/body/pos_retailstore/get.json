@@ -233,7 +233,8 @@
       "tobaccoMrcControlType": "SAME_PRICE",
       "markingSellingMode": "CORRECT_MARKS_ONLY",
       "sendMarksForCheck": false,
-      "offlineSaleMode": "ALL"
+      "offlineSaleMode": "ALL",
+      "giftCardsEnabled": false
     }
   ]
 }
