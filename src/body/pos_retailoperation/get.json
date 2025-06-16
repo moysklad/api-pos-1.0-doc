@@ -45,7 +45,20 @@
       "prepaymentCash": 0.0,
       "prepaymentNoCash": 0.0,
       "prepaymentQrSum": 0,
-      "returned": false
+      "returned": false,
+      "giftCards": [
+        {
+          "name": "123457",
+          "paymentSum": 500,
+          "meta": {
+            "href": "https://online.moysklad.ru/api/posap/1.0/entity/giftcard/syncid/73a83977-89c7-11e8-253d-a06100000004",
+            "mediaType": "application/json",
+            "type": "giftcard",
+            "id": "73a83977-89c7-11e8-253d-a06100000004",
+            "idType": "sync"
+          }
+        }
+      ]
     },
     {
       "meta": {
@@ -75,7 +88,20 @@
       "prepaymentCash": 0.0,
       "prepaymentNoCash": 0.0,
       "prepaymentQrSum": 0,
-      "returned": true
+      "returned": true,
+      "giftCards": [
+        {
+          "name": "123456",
+          "paymentSum": 1000,
+          "meta": {
+            "href": "https://online.moysklad.ru/api/posap/1.0/entity/giftcard/200a6488-07c7-11e7-90a5-ba9c0000009a",
+            "mediaType": "application/json",
+            "type": "giftcard",
+            "id": "200a6488-07c7-11e7-90a5-ba9c0000009a",
+            "idType": "native"
+          }
+        }
+      ]
     }
   ]
 }
