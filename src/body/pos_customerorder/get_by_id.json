@@ -172,5 +172,6 @@
   "paidInCash": 123,
   "paidNoCash": 222,
   "paidByQr": 0,
-  "shippedSum": 111
+  "shippedSum": 111,
+  "paidByGiftCards": 100
 }

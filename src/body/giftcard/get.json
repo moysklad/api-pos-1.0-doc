@@ -1,0 +1,23 @@
+{
+  "bonusProgram": {
+    "meta": {
+      "href": "https://online-retail-3.testms-test.lognex.ru/api/posap/1.0/entity/bonusprogram/85f923fd-1c49-11f0-0a80-15c000000514",
+      "mediaType": "application/json",
+      "type": "bonusprogram",
+      "id": "85f923fd-1c49-11f0-0a80-15c000000514",
+      "idType": "native"
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/posap/1.0/entity/giftcard/syncid/73a83977-89c7-11e8-253d-a06100000004",
+    "mediaType": "application/json",
+    "type": "giftcard",
+    "id": "73a83977-89c7-11e8-253d-a06100000004",
+    "idType": "sync"
+  },
+  "name": "1298345",
+  "status": "CAN_BE_USED",
+  "expireDate": "2029-04-18 00:00:00",
+  "currentBalance": 50000,
+  "initialBalance": 100000
+}
