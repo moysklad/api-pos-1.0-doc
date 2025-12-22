@@ -66,5 +66,15 @@
     }
   ],
   "discountCardNumber": "6",
-  "salesAmount": 1500
+  "salesAmount": 1500,
+  "bonusPoints": 980,
+      "bonusProgram": {
+          "meta": {
+              "href": "https://online.moysklad.ru/api/posap/1.0/entity/bonusprogram/999f70a5-df23-11f0-0a83-17570000016f",
+              "mediaType": "application/json",
+              "type": "bonusprogram",
+              "id": "999f70a5-df23-11f0-0a83-17570000016f",
+              "idType": "native"
+          }
+      },
 }
