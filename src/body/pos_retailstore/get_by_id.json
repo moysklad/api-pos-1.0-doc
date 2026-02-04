@@ -221,8 +221,13 @@
   },
   "enableNotMRCTobaccoSale": false,
   "tobaccoMrcControlType": "SAME_PRICE",
+  "markingEnabled": true,
+  "piotSettings": {
+    "mode": "esp",
+    "host": "127.0.0.1:51401"
+  },
   "markingSellingMode": "CORRECT_MARKS_ONLY",
   "sendMarksForCheck": false,
-  "offlineSaleMode": "ALL",
+  "offlineSaleMode": "ONLINE",
   "giftCardsEnabled": false
 }
